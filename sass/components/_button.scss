@@ -1,0 +1,19 @@
+.btn {
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 1.5rem 2rem;
+        background-color: $color-yellow;
+        color: $color-blue-dark;
+        border-radius: .2rem;
+        transition: all .3s;
+    }
+
+    &:active,
+    &:hover {
+        background-color: $color-blue-dark;
+        color: $color-yellow;
+    }
+}
