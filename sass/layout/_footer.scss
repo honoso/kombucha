@@ -64,8 +64,8 @@
     }
 
     &__img {
-        height: 15rem;
-        width: 18rem;
+        height: 20rem;
+        width: 23rem;
         align-self: center;
     }
 
@@ -79,6 +79,39 @@
         &-text {
             font-size: 1.5rem;
 
+            &:first-of-type {
+                margin-top: 2rem;
+            }
+
+            &:not(:last-of-type) {
+                margin-bottom: .5rem;
+            }
+        }
+
+        &-form {
+            margin-top: 2rem;
+
+            display: flex;
+        }
+
+        &-input {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid $color-blue-dark;
+            color: $color-pink;
+            font-size: 1.6rem;
+            font-style: italic;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        &-submit {
+            background-color: transparent;
+            color: $color-pink;
+            border: 2px solid $color-blue-dark;
+            padding: 1rem 1.5rem;
         }
     }
 }
