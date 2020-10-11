@@ -152,6 +152,9 @@ html {
 .nav {
   background-color: #fff;
   padding-right: 5rem;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
   display: flex;
   align-items: center; }
   .nav__list {
@@ -381,3 +384,49 @@ html {
   .what-is-kombucha-ingredients__text {
     font-size: 3.5rem;
     margin-top: 3rem; }
+
+.what-is-kombucha-benefits {
+  height: 90vh;
+  background-color: #435956;
+  color: #F0BA70;
+  display: flex; }
+  .what-is-kombucha-benefits__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .what-is-kombucha-benefits__box h2 {
+      width: 70%;
+      text-align: center; }
+    .what-is-kombucha-benefits__box p {
+      margin-top: 5rem;
+      width: 80%;
+      line-height: 2; }
+  .what-is-kombucha-benefits__img {
+    background-image: url(../img/people-happy.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 0 0 50%; }
+
+.what-is-kombucha-process {
+  height: 100vh;
+  background-color: #609B9A;
+  color: #402E32;
+  display: flex; }
+  .what-is-kombucha-process__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .what-is-kombucha-process__box h2 {
+      width: 70%;
+      text-align: center; }
+    .what-is-kombucha-process__box p {
+      margin-top: 5rem;
+      width: 80%;
+      line-height: 2; }
+  .what-is-kombucha-process__img {
+    background-image: url(../img/kombucha-5.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 0 0 50%; }
