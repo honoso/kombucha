@@ -311,3 +311,73 @@ html {
     color: #F0BA70; }
     .section-instagram__tags-text:not(:last-child) {
       margin-right: 5rem; }
+
+.what-is-kombucha-header {
+  height: 85vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column; }
+  .what-is-kombucha-header__banner {
+    padding: 5rem 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/market.jpg);
+    background-size: cover;
+    background-position: bottom;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .what-is-kombucha-header h1 {
+    font-weight: 700; }
+  .what-is-kombucha-header p {
+    margin-top: 3rem;
+    line-height: 2;
+    font-weight: 500;
+    text-align: center;
+    width: 50%; }
+
+.what-is-kombucha-ingredients {
+  padding: 10rem 0;
+  color: #435956;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .what-is-kombucha-ingredients__paragraph {
+    margin-top: 1.5rem;
+    width: 60%;
+    text-align: center;
+    line-height: 2; }
+  .what-is-kombucha-ingredients__list {
+    margin: 5rem 0;
+    display: flex; }
+  .what-is-kombucha-ingredients__item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .what-is-kombucha-ingredients__item:not(:last-child) {
+      margin-right: 5rem; }
+    .what-is-kombucha-ingredients__item span {
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: #609B9A;
+      height: 15rem;
+      width: 15rem; }
+  .what-is-kombucha-ingredients__icon--sugar {
+    -webkit-mask: url(../img/sugar.svg);
+    mask: url(../img/sugar.svg); }
+  .what-is-kombucha-ingredients__icon--water {
+    -webkit-mask: url(../img/water.svg);
+    mask: url(../img/water.svg); }
+  .what-is-kombucha-ingredients__icon--tea {
+    -webkit-mask: url(../img/tea.svg);
+    mask: url(../img/tea.svg); }
+  .what-is-kombucha-ingredients__icon--fruits {
+    -webkit-mask: url(../img/fruits.svg);
+    mask: url(../img/fruits.svg); }
+  .what-is-kombucha-ingredients__icon--scoby {
+    -webkit-mask: url(../img/scoby.svg);
+    mask: url(../img/scoby.svg); }
+  .what-is-kombucha-ingredients__text {
+    font-size: 3.5rem;
+    margin-top: 3rem; }

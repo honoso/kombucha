@@ -1,0 +1,107 @@
+.what-is-kombucha-header {
+    height: 85vh;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+
+    &__banner {   
+        padding: 5rem 0;
+        background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../img/market.jpg);
+        background-size: cover;
+        background-position: bottom;
+
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-weight: 700;
+    }
+
+    p {
+        margin-top: 3rem;
+        line-height: 2;
+        font-weight: 500;
+        text-align: center;
+        width: 50%;
+    }
+}
+
+.what-is-kombucha-ingredients {
+    padding: 10rem 0;
+    color: $color-blue-dark;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__paragraph {
+        margin-top: 1.5rem;
+        width: 60%;
+        text-align: center;
+        line-height: 2;
+    }
+
+    &__list {
+        margin: 5rem 0;
+
+        display: flex;
+    }
+
+    &__item {
+        list-style: none;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &:not(:last-child){
+            margin-right: 5rem;
+        }   
+        
+        span {
+            -webkit-mask-size: cover;
+            mask-size: cover;
+            background-color: $color-blue-light;
+            height: 15rem;
+            width: 15rem;
+        }
+    }
+
+    &__icon {
+
+        &--sugar {
+          -webkit-mask: url(../img/sugar.svg);  
+          mask: url(../img/sugar.svg);  
+        }
+
+        &--water {
+            -webkit-mask: url(../img/water.svg);  
+            mask: url(../img/water.svg);
+        }
+
+        &--tea {
+            -webkit-mask: url(../img/tea.svg);  
+            mask: url(../img/tea.svg);
+        }
+
+        &--fruits {
+            -webkit-mask: url(../img/fruits.svg);  
+            mask: url(../img/fruits.svg);
+        }
+
+        &--scoby {
+            -webkit-mask: url(../img/scoby.svg);  
+            mask: url(../img/scoby.svg);
+        }
+    }
+
+    &__text {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+    }
+}
