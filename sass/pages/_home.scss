@@ -5,36 +5,8 @@
     display: flex;
     flex-direction: column;
 
-    &__circle {
-        height: 13rem;
-        width: 13rem;
-        border-radius: 50%;
-        background-color: #fff;
-        border: 0.2rem solid #000;
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        &-svg {
-                height: 6rem;
-                width: 6rem;
-                margin-bottom: .5rem;
-            }
-
-        &-text {
-            color: #000;
-            font-size: 1.6rem;
-        }
-    }
-
-    &__img {
-        height: 11rem;
-        width: 14rem;
-    }
-
     &__banner {
+        padding-top: 10rem;
         padding-left: 15rem;
         background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/kombucha-3.jpg);
         background-size: cover;
@@ -71,6 +43,30 @@
 
         &:not(:last-child) {
             margin-right: 4rem;
+        }
+    }
+
+    &__circle {
+        height: 13rem;
+        width: 13rem;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 0.2rem solid #000;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &-svg {
+                height: 6rem;
+                width: 6rem;
+                margin-bottom: .5rem;
+            }
+
+        &-text {
+            color: #000;
+            font-size: 1.6rem;
         }
     }
 }
