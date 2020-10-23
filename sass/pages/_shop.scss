@@ -126,6 +126,8 @@
             font-size: 1.8rem;
             text-align: center;
             padding: 1rem;
+            -moz-appearance:textfield;
+
 
             &:focus {
                 outline: none;
