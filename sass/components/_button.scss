@@ -1,7 +1,9 @@
 .btn {
 
     &:link,
-    &:visited {
+    &:visited,
+    &__inverted:link,
+    &__inverted:visited {
         text-decoration: none;
         font-size: 2rem;
         padding: 1.5rem 2rem;
@@ -15,5 +17,22 @@
     &:hover {
         background-color: $color-blue-dark;
         color: $color-yellow;
+    }
+
+    &__inverted {
+
+        &:link,
+        &:visited {
+            background-color: $color-blue-dark;
+            color: $color-yellow;
+            border: 2px solid transparent;
+        }
+
+        &:active,
+        &:hover {
+            background-color: $color-yellow;
+            color: $color-blue-dark;
+            border: 2px solid $color-blue-dark;
+        }
     }
 }

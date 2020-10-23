@@ -1,0 +1,58 @@
+.delivery-header {
+    height: 100vh;
+    background-color: $color-yellow;
+    color: $color-blue-dark;
+    
+    display: flex;
+    flex-direction: column;
+
+    &__box {
+        display: flex;
+        flex: 1;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__safety {
+
+        &-list {
+            margin-bottom: 5rem;
+            display: flex;
+        }
+
+        &-item {
+            list-style: none;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &:not(:last-child) {
+                margin-right: 5rem;
+            }
+        }
+
+        &-icon {
+            height: 10rem;
+            width: 10rem;
+            margin-bottom: 2rem;
+        }
+
+        &-text {
+            font-size: 2rem;
+        }
+    }
+    
+    &__img {
+        background-image: url(../img/delivery.jpg);
+        background-size: cover;
+        background-position: bottom;
+
+        flex: 0 0 50%;
+    }
+}

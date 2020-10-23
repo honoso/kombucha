@@ -67,6 +67,9 @@ html {
 .u-margin-top-small {
   margin-top: 3rem !important; }
 
+.u-margin-top-big {
+  margin-top: 10rem !important; }
+
 .u-margin-bottom-small {
   margin-bottom: 2rem !important; }
 
@@ -76,7 +79,7 @@ html {
 .selected {
   background-color: rgba(67, 89, 86, 0.5) !important; }
 
-.btn:link, .btn:visited {
+.btn:link, .btn:visited, .btn__inverted:link, .btn__inverted:visited {
   text-decoration: none;
   font-size: 2rem;
   padding: 1.5rem 2rem;
@@ -88,6 +91,16 @@ html {
 .btn:active, .btn:hover {
   background-color: #435956;
   color: #F0BA70; }
+
+.btn__inverted:link, .btn__inverted:visited {
+  background-color: #435956;
+  color: #F0BA70;
+  border: 2px solid transparent; }
+
+.btn__inverted:active, .btn__inverted:hover {
+  background-color: #F0BA70;
+  color: #435956;
+  border: 2px solid #435956; }
 
 .instagram__container {
   display: flex; }
@@ -219,6 +232,42 @@ html {
   left: 0;
   width: 100vw;
   z-index: 999; }
+
+.delivery-header {
+  height: 100vh;
+  background-color: #F0BA70;
+  color: #435956;
+  display: flex;
+  flex-direction: column; }
+  .delivery-header__box {
+    display: flex;
+    flex: 1; }
+  .delivery-header__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .delivery-header__safety-list {
+    margin-bottom: 5rem;
+    display: flex; }
+  .delivery-header__safety-item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .delivery-header__safety-item:not(:last-child) {
+      margin-right: 5rem; }
+  .delivery-header__safety-icon {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 2rem; }
+  .delivery-header__safety-text {
+    font-size: 2rem; }
+  .delivery-header__img {
+    background-image: url(../img/delivery.jpg);
+    background-size: cover;
+    background-position: bottom;
+    flex: 0 0 50%; }
 
 .header {
   height: 85vh;
