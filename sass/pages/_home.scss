@@ -6,7 +6,7 @@
     flex-direction: column;
 
     &__banner {
-        padding-top: 10rem;
+        padding: 5rem 0;
         padding-left: 15rem;
         background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/kombucha-3.jpg);
         background-size: cover;
@@ -174,33 +174,5 @@
 
     &__img {
         width: 80%;
-    }
-}
-
-.section-instagram {
-    
-    &__container {
-        display: flex;
-    }
-
-    &__img {
-        width: 20%;
-    }
-
-    &__tags {
-        padding: 2rem 0;
-        background-color: $color-blue-dark;
-
-        display: flex;
-        justify-content: center;
-
-        &-text {
-            font-size: 3rem;
-            color: $color-yellow;
-
-            &:not(:last-child) {
-                margin-right: 5rem;
-            }
-        }
     }
 }

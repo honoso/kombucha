@@ -1,9 +1,6 @@
 .nav {
     background-color: #fff;
     padding-right: 5rem;
-    position: fixed;
-    width: 100vw;
-    z-index: 100;
     
     display: flex;  
     align-items: center;
@@ -48,4 +45,21 @@
         color: $color-blue-light;
         background-color: $color-green;
     }
+
+    &__cart {
+        margin-left: auto;
+
+        &-icon {
+            height: 5rem;
+            width: 5rem;
+        }
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 999;
 }

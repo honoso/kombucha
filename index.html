@@ -7,8 +7,8 @@
 
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">   
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="js/index.js" defer></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="dist/bundle.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -18,7 +18,7 @@
             </a>
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="#shop" class="nav__link nav__link--1">Shop</a>
+                    <a href="pages/shop.html" class="nav__link nav__link--1">Shop</a>
                 </li>
                 <li class="nav__item">
                     <a href="pages/what-is-kombucha.html" class="nav__link">What is Kombucha?</a>
@@ -30,6 +30,9 @@
                     <a href="#about" class="nav__link">About Us</a>
                 </li>
             </ul>
+            <a href="#" class="nav__cart">
+                <img src="../img/cart.svg" alt="Shopping Cart" class="nav__cart-icon">
+            </a>
         </nav>
         <div class="header__banner">
             <h1 class="heading-primary">Kombucha Del Obispo</h1>
@@ -66,7 +69,7 @@
         </div>
     </header>
     <main>
-        <section class="section-mission">
+        <section class="section-mission js--section-nav-start">
             <h2 class="heading-secondary">Our Mission</h2>
             <p class="paragraph">
                 HELPING YOU BREW YOU, Kombucha del Obispo OFFERS DELICIOUS FEEL GOOD BUBBLY BEVERAGES, SO YOU CAN FOLLOW YOUR GUT! AND SHOW THE WORLD WHAT YOU’RE MADE OF.
@@ -131,16 +134,16 @@
                 <a href="#" class="btn">Learn More</a>
             </div>
         </section>
-        <section class="section-instagram">
-            <div class="section-instagram__container">
-                <!-- <img src="" alt="Insta Photo 1" class="section-instagram__img"> -->
-                <!-- <img src="" alt="Insta Photo 2" class="section-instagram__img"> -->
-                <!-- <img src="" alt="Insta Photo 3" class="section-instagram__img"> -->
-                <!-- <img src="" alt="Insta Photo 4" class="section-instagram__img"> -->
+        <section class="instagram">
+            <div class="instagram__container">
+                <!-- <img src="" alt="Insta Photo 1" class="instagram__img"> -->
+                <!-- <img src="" alt="Insta Photo 2" class="instagram__img"> -->
+                <!-- <img src="" alt="Insta Photo 3" class="instagram__img"> -->
+                <!-- <img src="" alt="Insta Photo 4" class="instagram__img"> -->
             </div>
-            <div class="section-instagram__tags">
-                <span class="section-instagram__tags-text">@kombucha_del_obisp</span>
-                <span class="section-instagram__tags-text">#craftkombucha</span>
+            <div class="instagram__tags">
+                <span class="instagram__tags-text">@kombucha_del_obisp</span>
+                <span class="instagram__tags-text">#craftkombucha</span>
             </div>
         </section>
     </main>

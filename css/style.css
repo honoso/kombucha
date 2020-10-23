@@ -64,6 +64,18 @@ html {
   font-weight: 400;
   text-transform: uppercase; }
 
+.u-margin-top-small {
+  margin-top: 3rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 5rem !important; }
+
+.selected {
+  background-color: rgba(67, 89, 86, 0.5) !important; }
+
 .btn:link, .btn:visited {
   text-decoration: none;
   font-size: 2rem;
@@ -76,6 +88,23 @@ html {
 .btn:active, .btn:hover {
   background-color: #435956;
   color: #F0BA70; }
+
+.instagram__container {
+  display: flex; }
+
+.instagram__img {
+  width: 20%; }
+
+.instagram__tags {
+  padding: 2rem 0;
+  background-color: #435956;
+  display: flex;
+  justify-content: center; }
+  .instagram__tags-text {
+    font-size: 3rem;
+    color: #F0BA70; }
+    .instagram__tags-text:not(:last-child) {
+      margin-right: 5rem; }
 
 .footer {
   padding: 10rem 0;
@@ -152,9 +181,6 @@ html {
 .nav {
   background-color: #fff;
   padding-right: 5rem;
-  position: fixed;
-  width: 100vw;
-  z-index: 100;
   display: flex;
   align-items: center; }
   .nav__img {
@@ -181,6 +207,18 @@ html {
   .nav__link:hover, .nav__link:active {
     color: #609B9A;
     background-color: #C7D790; }
+  .nav__cart {
+    margin-left: auto; }
+    .nav__cart-icon {
+      height: 5rem;
+      width: 5rem; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 999; }
 
 .header {
   height: 85vh;
@@ -188,7 +226,7 @@ html {
   display: flex;
   flex-direction: column; }
   .header__banner {
-    padding-top: 10rem;
+    padding: 5rem 0;
     padding-left: 15rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/kombucha-3.jpg);
     background-size: cover;
@@ -299,22 +337,108 @@ html {
   .section-reason__img {
     width: 80%; }
 
-.section-instagram__container {
-  display: flex; }
-
-.section-instagram__img {
-  width: 20%; }
-
-.section-instagram__tags {
-  padding: 2rem 0;
-  background-color: #435956;
+.shop-header {
   display: flex;
-  justify-content: center; }
-  .section-instagram__tags-text {
-    font-size: 3rem;
-    color: #F0BA70; }
-    .section-instagram__tags-text:not(:last-child) {
-      margin-right: 5rem; }
+  flex-direction: column; }
+
+.shop-box {
+  display: flex; }
+  .shop-box__img {
+    width: 50%;
+    padding: 7rem;
+    background-image: linear-gradient(132.5deg, #435956 50%, #F0BA70 50%); }
+  .shop-box__buy {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #402E32; }
+  .shop-box__flavors {
+    display: flex; }
+    .shop-box__flavors-box {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: .5rem; }
+      .shop-box__flavors-box:not(:last-child) {
+        margin-right: 5rem; }
+      .shop-box__flavors-box:hover {
+        background-color: rgba(67, 89, 86, 0.2); }
+    .shop-box__flavors-icons {
+      height: 10rem;
+      width: 10rem;
+      margin-bottom: 2rem; }
+    .shop-box__flavors-mix {
+      display: flex; }
+    .shop-box__flavors-text {
+      font-size: 2rem; }
+    .shop-box__flavors-amount {
+      margin-top: 1rem;
+      font-size: 2rem; }
+  .shop-box__ingredients {
+    margin: 3rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .shop-box__ingredients-heading {
+      font-size: 3rem;
+      font-weight: 400; }
+    .shop-box__ingredients-text {
+      font-size: 2rem;
+      align-self: flex-start; }
+  .shop-box__amount {
+    margin-bottom: 5rem;
+    display: flex; }
+    .shop-box__amount-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .shop-box__amount-box:not(:last-child) {
+        margin-right: -5rem; }
+    .shop-box__amount-count {
+      display: flex;
+      margin-bottom: 1rem; }
+    .shop-box__amount-text {
+      font-size: 2.3rem;
+      margin-bottom: 1.5rem; }
+      .shop-box__amount-text:not(:last-child) {
+        margin-right: 1rem; }
+    .shop-box__amount-order {
+      display: flex;
+      justify-content: center; }
+    .shop-box__amount-input {
+      border: none;
+      border: 2px solid #435956;
+      width: 30%;
+      font-size: 1.8rem;
+      text-align: center;
+      padding: 1rem; }
+      .shop-box__amount-input:focus {
+        outline: none; }
+      .shop-box__amount-input::-webkit-inner-spin-button, .shop-box__amount-input::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; }
+    .shop-box__amount-increase, .shop-box__amount-decrease {
+      font-size: 1.8rem;
+      border: 2px solid #435956;
+      padding: 1rem;
+      cursor: pointer;
+      transition: all .2s;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .shop-box__amount-increase:hover, .shop-box__amount-decrease:hover {
+      background-color: rgba(67, 89, 86, 0.2); }
+    .shop-box__amount-increase:active, .shop-box__amount-decrease:active {
+      background-color: rgba(67, 89, 86, 0.5); }
+    .shop-box__amount-increase {
+      border-left: none; }
+    .shop-box__amount-decrease {
+      border-right: none; }
 
 .what-is-kombucha-header {
   height: 85vh;
@@ -431,3 +555,22 @@ html {
     background-size: cover;
     background-position: center;
     flex: 0 0 50%; }
+
+.what-is-kombucha-promo {
+  padding: 5rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .what-is-kombucha-promo__logo {
+    height: 25rem;
+    width: 30rem;
+    margin-bottom: 3rem; }
+  .what-is-kombucha-promo__text {
+    text-align: center;
+    font-size: 5rem;
+    width: 50%;
+    margin-bottom: 5rem; }
+    .what-is-kombucha-promo__text span {
+      color: #F0707B;
+      font-weight: 700; }

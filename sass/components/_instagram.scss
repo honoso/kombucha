@@ -1,0 +1,27 @@
+.instagram {
+    
+    &__container {
+        display: flex;
+    }
+
+    &__img {
+        width: 20%;
+    }
+
+    &__tags {
+        padding: 2rem 0;
+        background-color: $color-blue-dark;
+
+        display: flex;
+        justify-content: center;
+
+        &-text {
+            font-size: 3rem;
+            color: $color-yellow;
+
+            &:not(:last-child) {
+                margin-right: 5rem;
+            }
+        }
+    }
+}

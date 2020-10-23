@@ -6,9 +6,7 @@
     <title>What is Kombucha</title>
 
     <link rel="stylesheet" href="../css/style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">   
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="../js/index.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">  
 </head>
 <body>
     <header class="what-is-kombucha-header">
@@ -18,7 +16,7 @@
             </a>
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="#shop" class="nav__link nav__link--1">Shop</a>
+                    <a href="shop.html" class="nav__link nav__link--1">Shop</a>
                 </li>
                 <li class="nav__item">
                     <a href="what-is-kombucha.html" class="nav__link">What is Kombucha?</a>
@@ -30,6 +28,9 @@
                     <a href="#about" class="nav__link">About Us</a>
                 </li>
             </ul>
+            <a href="#" class="nav__cart">
+                <img src="../img/cart.svg" alt="Shopping Cart" class="nav__cart-icon">
+            </a>
         </nav>
         <div class="what-is-kombucha-header__banner">
             <h1 class="heading-primary">What is Kombucha?</h1>
@@ -88,6 +89,79 @@
                 </p>
             </div>
         </section>
+        <section class="what-is-kombucha-promo">
+            <img src="../img/logo.jpg" alt="Logo" class="what-is-kombucha-promo__logo">
+            <p class="what-is-kombucha-promo__text">
+                We make it the way nature intended, always giving you <span>the best tasting</span> and <span>highest quality</span> kombucha you can buy.
+            </p>
+            <a href="#" class="btn">Why Choose Us</a>
+        </section>
+        <section class="instagram">
+            <div class="instagram__container">
+                <!-- <img src="" alt="Insta Photo 1" class="instagram__img"> -->
+                <!-- <img src="" alt="Insta Photo 2" class="instagram__img"> -->
+                <!-- <img src="" alt="Insta Photo 3" class="instagram__img"> -->
+                <!-- <img src="" alt="Insta Photo 4" class="instagram__img"> -->
+            </div>
+            <div class="instagram__tags">
+                <span class="instagram__tags-text">@kombucha_del_obisp</span>
+                <span class="instagram__tags-text">#craftkombucha</span>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="footer__info">
+            <div class="footer__info-box footer__info-box--1">
+                <object data="../img/phone.svg" type="image/svg+xml" class="footer__info-icon"></object>
+                <p class="footer__info-text">3005 5412</p>
+            </div>
+            <div class="footer__info-box">
+                <object data="../img/mail.svg" type="image/svg+xml" class="footer__info-icon"></object>
+                <p class="footer__info-text">info@delobispo.com</p>
+            </div>
+            <div class="footer__social">
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="#" class="footer_social-link">
+                            <img src="../img/facebook.svg" alt="Facebook" class="footer__social-icon">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer_social-link">
+                            <img src="../img/instagram.svg" alt="Facebook" class="footer__social-icon">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer_social-link">
+                            <img src="../img/twitter.svg" alt="Facebook" class="footer__social-icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <img src="../img/logo.jpg" alt="Logo" class="footer__img">
+        <div class="footer__subscribe">
+            <h4 class="heading-quaternary">
+                Subscribe for more updates
+            </h4>
+            <p class="footer__subscribe-text">
+                Get instant updates about our
+            </p>
+            <p class="footer__subscribe-text">
+                new products and special promos!
+            </p>
+            <p class="footer__subscribe-text">
+                promos!
+            </p>
+            <form action="#" class="footer__subscribe-form">
+                <input type="email" class="footer__subscribe-input" placeholder="email address" required>
+                <input type="submit" class="footer__subscribe-submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="../dist/bundle.js"></script>
+    <div id="circle"></div>
 </body>
 </html>
