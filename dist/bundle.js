@@ -1820,6 +1820,9 @@ var amount = {
         'total': function total() {
             return this.oneCT + this.fourCT * 4 + this.eightCT * 8;
         }
+    },
+    'grandTotal': function grandTotal() {
+        return amount.jamaica.total() + amount.chai.total() + amount.jengLemon.total();
     }
 
     // Jamaica Selector Control

@@ -61,6 +61,9 @@ let amount = {
         'total': function() {
             return this.oneCT + (this.fourCT * 4) + (this.eightCT * 8);
         }
+    },
+    'grandTotal': function() {
+        return amount.jamaica.total() + amount.chai.total() + amount.jengLemon.total();
     }
 }
 
