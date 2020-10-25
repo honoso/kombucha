@@ -72,7 +72,7 @@
 }
 
 .section-mission {
-    padding: 8rem 0;
+    padding: 11rem 0 8rem 0;
     color: $color-blue-dark;
 
     display: flex;
@@ -101,10 +101,7 @@
 
     &__box {
         display: flex;
-
-        &:not(:last-child) {
-            margin-top: 10rem;
-        }
+        margin-top: 10rem;
     }
 
     &__container {
