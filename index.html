@@ -12,6 +12,36 @@
 </head>
 <body>
     <header class="header">
+        <input type="checkbox" id="checkbox" class="nav__checkbox">
+        <label for="checkbox" class="nav__circle">
+            <div class="nav__circle-menu nav__circle-menu--1"></div>
+            <div class="nav__circle-menu nav__circle-menu--2"></div>
+            <div class="nav__circle-menu nav__circle-menu--3"></div>
+        </label>
+        <div class="nav-mobile">
+            <div class="nav-mobile__menu">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="Logo" class="nav-mobile__menu-img">
+                </a>
+                <ul class="nav-mobile__menu-list">
+                    <li class="nav-mobile__menu-item">
+                        <a href="pages/shop.html" class="nav-mobile__menu-link">Shop</a>
+                    </li>
+                    <li class="nav-mobile__menu-item">
+                        <a href="pages/what-is-kombucha.html" class="nav-mobile__menu-link">What is Kombucha?</a>
+                    </li>
+                    <li class="nav-mobile__menu-item">
+                        <a href="pages/delivery.html" class="nav-mobile__menu-link">Delivery</a>
+                    </li>
+                    <li class="nav-mobile__menu-item">
+                        <a href="#about" class="nav-mobile__menu-link">About Us</a>
+                    </li>
+                </ul>
+                <a href="pages/cart.html" class="nav-mobile__menu-cart">
+                    <img src="../img/cart-color.svg" alt="Shopping Cart" class="nav-mobile__menu-icon">
+                </a>
+            </div>
+        </div>
         <nav class="nav">
             <a href="index.html">
                 <img src="img/logo.jpg" alt="Logo" class="nav__img">
@@ -79,24 +109,30 @@
             <h2 class="heading-secondary">Our All-Natural Kombucha</h2>
             <div class="section-product__box">
                 <div class="section-product__container">
-                    <img src="img/product.png" alt="Nispero Flavor" class="section-product__img">
+                    <figure class="section-product__figure">
+                        <img src="img/product.png" alt="Jamaica Flavor" class="section-product__img">
+                    </figure>
                     <p class="section-product__heading">Jamaica</p>
                     <p class="section-product__text">
-                        Te negro, azucar, agua, y jamaica
+                        Te negro, azucar, agua, scobi, amor, carino y la fruta de los dioses jamaica 
                     </p>
                 </div>
                 <div class="section-product__container">
-                    <img src="img/product.png" alt="Peach Flavor" class="section-product__img">
+                    <figure class="section-product__figure">
+                        <img src="img/product.png" alt="Chai Flavor" class="section-product__img">
+                    </figure>
                     <p class="section-product__heading">Chai</p>
                     <p class="section-product__text">
-                        Anis, canela, te negro, pimienta, jengibre, azucar y agua
+                        anis, canela, te negro, pimienta, jengibre, azucar y agua
                     </p>
                 </div>
                 <div class="section-product__container">
-                    <img src="img/product.png" alt="Cinnamon Flavor" class="section-product__img">
+                    <figure class="section-product__figure">
+                        <img src="img/product.png" alt="Jengibre con Lemongrass Flavor" class="section-product__img">
+                    </figure>
                     <p class="section-product__heading">Jengibre con Lemongrass</p>
                     <p class="section-product__text">
-                        Te verde, azucar, agua, jengibre, y lemongrass
+                        te verde, azucar, agua, jengibre, y lemongrass
                     </p>
                 </div>
             </div>

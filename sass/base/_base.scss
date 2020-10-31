@@ -24,6 +24,10 @@ html {
     @include respond(phone) {
         font-size: 43.75%;       //1rem = 7px
     }
+
+    @include respond(phone-small) {
+        font-size: 40.625%;       //1rem = 6.5px
+    }
 }
 
 body {    

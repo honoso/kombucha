@@ -87,7 +87,7 @@
     }
 
     &__payment {
-        background-color: $color-yellow;
+        background-color: #fff;
         color: $color-blue-dark;
         margin: 3rem 2rem;
         padding: 3rem;
@@ -184,6 +184,7 @@
             background-color: rgba($color-brown, .8);
             color: #fff;
             font-size: 1.8rem;
+            cursor: pointer;
             transition: all .3s;
 
             display: flex;

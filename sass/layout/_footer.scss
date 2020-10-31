@@ -7,10 +7,20 @@
     align-items: center;
     justify-content: space-around;
 
+    @include respond(phone) {
+        flex-direction: column;
+        padding: 5rem 0;
+    }
+
     &__info {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: center;
+
+        @include respond(phone) {
+            order: 2;   
+        }
 
         &-box {
             display: flex;
@@ -24,15 +34,30 @@
             height: 2rem;
             width: 2rem;
             margin-right: 2rem;
+
+            @include respond(phone) {
+                height: 2.5rem;
+                width: 2.5rem;   
+            }
         }
         
         &-text {
             font-size: 1.8rem;
+
+            @include respond(phone) {
+                font-size: 2.5rem;   
+            }
         }
     }
 
     &__social {
         margin-top: 3.5rem;
+
+        @include respond(phone) {
+         order: 3;   
+         margin-bottom: 5rem;
+         align-self: center;
+        }
         
         &-list {
             display: flex;
@@ -53,13 +78,16 @@
 
         &-link {
             text-decoration: none;
-            height: 2rem;
-            width: 2rem;
         }
 
         &-icon {
             height: 2rem;
             width: 2rem;
+
+            @include respond(phone) {
+                height: 3rem;
+                width: 3rem;   
+            }
         }
     }
 
@@ -67,17 +95,35 @@
         height: 20rem;
         width: 23rem;
         align-self: center;
+
+        @include respond(phone) {
+            order: 1;  
+            margin-bottom: 5rem; 
+        }
     }
 
     &__subscribe {
-
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
 
+        @include respond(phone) {
+            order: 4;   
+        }
+
+        h4 {
+            @include respond(phone) {
+                font-size: 2.5rem;   
+            }
+        }
+
         &-text {
             font-size: 1.5rem;
+
+            @include respond(phone) {
+                font-size: 2rem;   
+            }
 
             &:first-of-type {
                 margin-top: 2rem;
@@ -102,6 +148,10 @@
             font-size: 1.6rem;
             font-style: italic;
 
+            @include respond(phone) {
+                font-size: 2.5rem;   
+            }
+
             &:focus {
                 outline: none;
             }
@@ -112,6 +162,10 @@
             color: $color-pink;
             border: 2px solid $color-blue-dark;
             padding: 1rem 1.5rem;
+
+            @include respond(phone) {
+                font-size: 2.5rem;   
+            }
         }
     }
 }
