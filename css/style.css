@@ -296,6 +296,9 @@ html {
       width: 86%;
       display: flex;
       justify-content: space-between; }
+      @media only screen and (max-width: 37.5em) {
+        .nav-mobile__menu {
+          width: 80%; } }
       .nav-mobile__menu-img {
         width: 18rem;
         margin-top: -2rem; }

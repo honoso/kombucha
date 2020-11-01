@@ -77,6 +77,10 @@
             width: 86%;
             display: flex;
             justify-content: space-between;
+
+            @include respond(phone) {
+                width: 80%;
+            }
             
             &-img {
                 width: 18rem;
@@ -102,10 +106,6 @@
                 color: $color-brown;
                 border-bottom: 2px solid $color-blue-dark;
                 padding-bottom: .5rem;
-            }
-
-            &-cart {
-
             }
 
             &-icon {
