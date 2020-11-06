@@ -1,24 +1,57 @@
 .delivery-header {
     height: 100vh;
-    background-color: $color-yellow;
     color: $color-blue-dark;
     
     display: flex;
     flex-direction: column;
 
+    @include respond(phone) {
+        height: initial;
+    }
+
     &__box {
         display: flex;
         flex: 1;
+        background-color: $color-yellow;
+
+        @include respond(phone) {
+            flex-direction: column;
+        }
     }
 
     &__text {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         text-align: center;
+
+        @include respond(phone) {
+            order: 2;
+        }
+
+        h1 {
+            @include respond(tab-land) {
+                margin-top: 4rem !important;   
+            }
+
+            @include respond(tab-port) {
+                margin-top: 0;
+                margin-bottom: 3rem;
+            }
+
+            @include respond(phone) {
+                margin-bottom: 0;
+            }
+        }
 
         p {
             font-weight: 400;
+
+            @include respond(tab-land) {
+                width: 90%;
+                margin-top: 2rem !important;
+            }
         }
     }
 
@@ -27,6 +60,12 @@
         &-list {
             margin-bottom: 5rem;
             display: flex;
+
+            @include respond(tab-land) {
+                margin-bottom: 0;
+                flex-wrap: wrap; 
+                justify-content: center;
+            }
         }
 
         &-item {
@@ -36,8 +75,31 @@
             flex-direction: column;
             align-items: center;
 
+            @include respond(tab-land) {
+                margin-bottom: 3rem;  
+                flex: 1 0 auto; 
+            }
+
             &:not(:last-child) {
-                margin-right: 5rem;
+                margin-right: 3rem;
+
+                @include respond(tab-port) {
+                    margin-right: 0;
+                }
+
+                @include respond(phone) {
+                    margin-right: 3rem;
+                }
+            }
+
+            &:nth-child(3) {
+                @media only screen and (max-width:68.0625em) {
+                    margin-right: 0rem;
+                }
+
+                @include respond(phone) {
+                    margin-right: 3rem;
+                }
             }
         }
 
@@ -59,5 +121,12 @@
         background-position: bottom;
 
         flex: 0 0 50%;
+
+        @include respond(phone) {
+            order: 1;
+            background-position: center;
+            height: 50vh;
+            flex: initial;
+        }
     }
 }

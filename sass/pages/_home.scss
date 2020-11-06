@@ -37,6 +37,10 @@
             @include respond(tab-port) {
                 width: 80%;
             }
+
+            @include respond(phone-small) {
+                font-size: 7rem;
+            }
         }
 
         p {
@@ -45,6 +49,11 @@
 
             @include respond(tab-port) {
                 width: 60%;
+            }
+
+            @include respond(phone-small) {
+                font-size: 4rem;
+                width: 80%;
             }
         }
     }
@@ -285,6 +294,11 @@
                 @include respond(phone) {
                     width: 80%;
                     text-align: center;
+                    font-size: 3rem;
+                }
+
+                @include respond(phone-small) {
+                    font-size: 2.5rem;
                 }
             }
         }

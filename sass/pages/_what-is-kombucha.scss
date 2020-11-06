@@ -20,6 +20,11 @@
 
     h1 {
         font-weight: 700;
+        text-align: center;
+
+        @include respond(phone-small) {
+            font-size: 6rem;
+        }
     }
 
     p {
@@ -28,6 +33,14 @@
         font-weight: 500;
         text-align: center;
         width: 50%;
+
+        @include respond(tab-land) {
+            width: 80%;
+        }
+
+        @include respond(tab-port) {
+            font-size: 3rem;
+        }
     }
 }
 
@@ -39,21 +52,45 @@
     flex-direction: column;
     align-items: center;
 
+    @include respond(tab-port) {
+        padding: 5rem 0;
+    }
+
+    h2 {
+        @include respond(phone-small) {
+            text-align: center;
+        }
+    }
+
     &__paragraph {
         margin-top: 1.5rem;
         width: 60%;
         text-align: center;
         line-height: 2;
+
+        @include respond(tab-port) {
+            width: 80%;
+        }
     }
 
     &__list {
-        margin: 5rem 0;
+        margin-top: 5rem;
 
         display: flex;
+
+        @include respond(tab-port) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }  
+
+        @include respond(phone) {
+            padding: 0 5rem;
+        }
     }
 
     &__item {
         list-style: none;
+        margin-bottom: 5rem;
         
         display: flex;
         flex-direction: column;
@@ -67,8 +104,13 @@
             -webkit-mask-size: cover;
             mask-size: cover;
             background-color: $color-blue-light;
-            height: 15rem;
-            width: 15rem;
+            height: 13rem;
+            width: 13rem;
+
+            @include respond(phone) {
+                height: 10rem;
+                width: 10rem;
+            }
         }
     }
 
@@ -107,13 +149,17 @@
 }
 
 .what-is-kombucha-benefits {
-    height: 90vh;
     background-color: $color-blue-dark;
     color: $color-yellow;
 
     display: flex;
+
+    @include respond(tab-port) {
+        flex-direction: column;
+    }
     
     &__box {
+        padding: 5rem 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -136,25 +182,48 @@
         background-size: cover;
         background-position: center;
         flex: 0 0 50%;
+
+        @include respond(tab-port) {
+            width: 100vw;
+            height: 100vh;
+            flex: initial;
+        }
+
+        @include respond(phone) {
+            height: 80vh;
+        }
     }
 }
 
 .what-is-kombucha-process {
-    height: 100vh;
     background-color: $color-blue-light;
     color: $color-brown;
 
     display: flex;
+
+    @include respond(tab-port) {
+        flex-direction: column;
+    }
     
     &__box {
+        padding: 15rem 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
+        @include respond(tab-port) {
+            padding: 6rem 0;
+        }
+
         h2 {
             width: 70%;
             text-align: center;
+
+            @include respond(phone-small) {
+                width: 100%;
+                font-size: 4rem;
+            }
         }
 
         p {
@@ -169,11 +238,22 @@
         background-size: cover;
         background-position: center;
         flex: 0 0 50%;
+
+        @include respond(tab-port) {
+            width: 100vw;
+            height: 100vh;
+            flex: initial;
+            order: 1;
+        }
+
+        @include respond(phone) {
+            height: 80vh;
+        }
     }
 }
 
 .what-is-kombucha-promo {
-    padding: 5rem;
+    padding: 2rem 5rem 5rem 5rem;
     text-transform: uppercase;
 
     display: flex;
@@ -191,6 +271,10 @@
         font-size: 5rem;
         width: 50%;
         margin-bottom: 5rem;
+
+        @include respond(tab-land) {
+            width: 100%;
+        }
 
         span {
             color: $color-pink;

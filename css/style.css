@@ -282,7 +282,7 @@ html {
       width: 5rem; }
   .nav-mobile {
     padding: 4rem 0 1rem 1rem;
-    width: 100vw;
+    width: 100%;
     background-color: #fff;
     position: fixed;
     top: 0;
@@ -507,30 +507,75 @@ html {
 
 .delivery-header {
   height: 100vh;
-  background-color: #F0BA70;
   color: #435956;
   display: flex;
   flex-direction: column; }
+  @media only screen and (max-width: 37.5em) {
+    .delivery-header {
+      height: initial; } }
   .delivery-header__box {
     display: flex;
-    flex: 1; }
+    flex: 1;
+    background-color: #F0BA70; }
+    @media only screen and (max-width: 37.5em) {
+      .delivery-header__box {
+        flex-direction: column; } }
   .delivery-header__text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center; }
+    @media only screen and (max-width: 37.5em) {
+      .delivery-header__text {
+        order: 2; } }
+    @media only screen and (max-width: 75em) {
+      .delivery-header__text h1 {
+        margin-top: 4rem !important; } }
+    @media only screen and (max-width: 56.25em) {
+      .delivery-header__text h1 {
+        margin-top: 0;
+        margin-bottom: 3rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .delivery-header__text h1 {
+        margin-bottom: 0; } }
     .delivery-header__text p {
       font-weight: 400; }
+      @media only screen and (max-width: 75em) {
+        .delivery-header__text p {
+          width: 90%;
+          margin-top: 2rem !important; } }
   .delivery-header__safety-list {
     margin-bottom: 5rem;
     display: flex; }
+    @media only screen and (max-width: 75em) {
+      .delivery-header__safety-list {
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        justify-content: center; } }
   .delivery-header__safety-item {
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center; }
+    @media only screen and (max-width: 75em) {
+      .delivery-header__safety-item {
+        margin-bottom: 3rem;
+        flex: 1 0 auto; } }
     .delivery-header__safety-item:not(:last-child) {
-      margin-right: 5rem; }
+      margin-right: 3rem; }
+      @media only screen and (max-width: 56.25em) {
+        .delivery-header__safety-item:not(:last-child) {
+          margin-right: 0; } }
+      @media only screen and (max-width: 37.5em) {
+        .delivery-header__safety-item:not(:last-child) {
+          margin-right: 3rem; } }
+    @media only screen and (max-width: 68.0625em) {
+      .delivery-header__safety-item:nth-child(3) {
+        margin-right: 0rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .delivery-header__safety-item:nth-child(3) {
+        margin-right: 3rem; } }
   .delivery-header__safety-icon {
     height: 10rem;
     width: 10rem;
@@ -543,6 +588,12 @@ html {
     background-size: cover;
     background-position: bottom;
     flex: 0 0 50%; }
+    @media only screen and (max-width: 37.5em) {
+      .delivery-header__img {
+        order: 1;
+        background-position: center;
+        height: 50vh;
+        flex: initial; } }
 
 .header {
   height: 85vh;
@@ -575,12 +626,19 @@ html {
       @media only screen and (max-width: 56.25em) {
         .header__banner h1 {
           width: 80%; } }
+      @media only screen and (max-width: 30em) {
+        .header__banner h1 {
+          font-size: 7rem; } }
     .header__banner p {
       width: 40%;
       margin-bottom: 4rem; }
       @media only screen and (max-width: 56.25em) {
         .header__banner p {
           width: 60%; } }
+      @media only screen and (max-width: 30em) {
+        .header__banner p {
+          font-size: 4rem;
+          width: 80%; } }
   .header__list {
     margin-bottom: 4rem;
     display: flex; }
@@ -747,7 +805,11 @@ html {
         @media only screen and (max-width: 37.5em) {
           .section-reason__box--2 p {
             width: 80%;
-            text-align: center; } }
+            text-align: center;
+            font-size: 3rem; } }
+        @media only screen and (max-width: 30em) {
+          .section-reason__box--2 p {
+            font-size: 2.5rem; } }
   .section-reason__img {
     width: 80%; }
     @media only screen and (max-width: 56.25em) {
@@ -874,13 +936,23 @@ html {
     align-items: center;
     justify-content: center; }
   .what-is-kombucha-header h1 {
-    font-weight: 700; }
+    font-weight: 700;
+    text-align: center; }
+    @media only screen and (max-width: 30em) {
+      .what-is-kombucha-header h1 {
+        font-size: 6rem; } }
   .what-is-kombucha-header p {
     margin-top: 3rem;
     line-height: 2;
     font-weight: 500;
     text-align: center;
     width: 50%; }
+    @media only screen and (max-width: 75em) {
+      .what-is-kombucha-header p {
+        width: 80%; } }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-header p {
+        font-size: 3rem; } }
 
 .what-is-kombucha-ingredients {
   padding: 10rem 0;
@@ -888,16 +960,33 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media only screen and (max-width: 56.25em) {
+    .what-is-kombucha-ingredients {
+      padding: 5rem 0; } }
+  @media only screen and (max-width: 30em) {
+    .what-is-kombucha-ingredients h2 {
+      text-align: center; } }
   .what-is-kombucha-ingredients__paragraph {
     margin-top: 1.5rem;
     width: 60%;
     text-align: center;
     line-height: 2; }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-ingredients__paragraph {
+        width: 80%; } }
   .what-is-kombucha-ingredients__list {
-    margin: 5rem 0;
+    margin-top: 5rem;
     display: flex; }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-ingredients__list {
+        flex-wrap: wrap;
+        justify-content: center; } }
+    @media only screen and (max-width: 37.5em) {
+      .what-is-kombucha-ingredients__list {
+        padding: 0 5rem; } }
   .what-is-kombucha-ingredients__item {
     list-style: none;
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center; }
@@ -907,8 +996,12 @@ html {
       -webkit-mask-size: cover;
       mask-size: cover;
       background-color: #609B9A;
-      height: 15rem;
-      width: 15rem; }
+      height: 13rem;
+      width: 13rem; }
+      @media only screen and (max-width: 37.5em) {
+        .what-is-kombucha-ingredients__item span {
+          height: 10rem;
+          width: 10rem; } }
   .what-is-kombucha-ingredients__icon--sugar {
     -webkit-mask: url(../img/sugar.svg);
     mask: url(../img/sugar.svg); }
@@ -929,11 +1022,14 @@ html {
     margin-top: 3rem; }
 
 .what-is-kombucha-benefits {
-  height: 90vh;
   background-color: #435956;
   color: #F0BA70;
   display: flex; }
+  @media only screen and (max-width: 56.25em) {
+    .what-is-kombucha-benefits {
+      flex-direction: column; } }
   .what-is-kombucha-benefits__box {
+    padding: 5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -950,20 +1046,38 @@ html {
     background-size: cover;
     background-position: center;
     flex: 0 0 50%; }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-benefits__img {
+        width: 100vw;
+        height: 100vh;
+        flex: initial; } }
+    @media only screen and (max-width: 37.5em) {
+      .what-is-kombucha-benefits__img {
+        height: 80vh; } }
 
 .what-is-kombucha-process {
-  height: 100vh;
   background-color: #609B9A;
   color: #402E32;
   display: flex; }
+  @media only screen and (max-width: 56.25em) {
+    .what-is-kombucha-process {
+      flex-direction: column; } }
   .what-is-kombucha-process__box {
+    padding: 15rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-process__box {
+        padding: 6rem 0; } }
     .what-is-kombucha-process__box h2 {
       width: 70%;
       text-align: center; }
+      @media only screen and (max-width: 30em) {
+        .what-is-kombucha-process__box h2 {
+          width: 100%;
+          font-size: 4rem; } }
     .what-is-kombucha-process__box p {
       margin-top: 5rem;
       width: 80%;
@@ -973,9 +1087,18 @@ html {
     background-size: cover;
     background-position: center;
     flex: 0 0 50%; }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-process__img {
+        width: 100vw;
+        height: 100vh;
+        flex: initial;
+        order: 1; } }
+    @media only screen and (max-width: 37.5em) {
+      .what-is-kombucha-process__img {
+        height: 80vh; } }
 
 .what-is-kombucha-promo {
-  padding: 5rem;
+  padding: 2rem 5rem 5rem 5rem;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -989,6 +1112,9 @@ html {
     font-size: 5rem;
     width: 50%;
     margin-bottom: 5rem; }
+    @media only screen and (max-width: 75em) {
+      .what-is-kombucha-promo__text {
+        width: 100%; } }
     .what-is-kombucha-promo__text span {
       color: #F0707B;
       font-weight: 700; }
