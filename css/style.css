@@ -603,7 +603,6 @@ html {
         flex: initial; } }
 
 .header {
-  height: 85vh;
   color: #fff;
   display: flex;
   flex-direction: column; }
@@ -613,7 +612,6 @@ html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/kombucha-3.jpg);
     background-size: cover;
     background-position: center;
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
