@@ -315,7 +315,10 @@ html {
         align-items: center; }
       .nav-mobile__menu-item {
         list-style: none;
-        margin-bottom: 4rem; }
+        margin-bottom: 4rem;
+        text-align: center; }
+        .nav-mobile__menu-item--link {
+          line-height: 1.7; }
       .nav-mobile__menu-link:link, .nav-mobile__menu-link:visited {
         text-decoration: none;
         font-size: 2.5rem;
