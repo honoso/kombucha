@@ -819,7 +819,8 @@ html {
     width: 80%; }
     @media only screen and (max-width: 56.25em) {
       .section-reason__img {
-        width: 95%; } }
+        width: 95%;
+        height: auto; } }
 
 .shop-header {
   display: flex;

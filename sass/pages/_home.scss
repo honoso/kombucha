@@ -306,7 +306,8 @@
         width: 80%;
 
         @include respond(tab-port) {
-            width: 95%;            
+            width: 95%;     
+            height: auto;       
         }
     }
 }
