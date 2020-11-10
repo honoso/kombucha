@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <main>
+        <section class="cart">
+            <input type="checkbox" id="checkbox" class="nav__checkbox">
+            <label for="checkbox" class="nav__circle">
+                <div class="nav__circle-menu nav__circle-menu--1"></div>
+                <div class="nav__circle-menu nav__circle-menu--2"></div>
+                <div class="nav__circle-menu nav__circle-menu--3"></div>
+            </label>
+            <div class="nav-mobile">
+                <div class="nav-mobile__menu">
+                    <a href="../index.html">
+                        <img src="../img/logo.jpg" alt="Logo" class="nav-mobile__menu-img">
+                    </a>
+                    <ul class="nav-mobile__menu-list">
+                        <li class="nav-mobile__menu-item">
+                            <a href="shop.html" class="nav-mobile__menu-link">Shop</a>
+                        </li>
+                        <li class="nav-mobile__menu-item">
+                            <a href="what-is-kombucha.html" class="nav-mobile__menu-link">What is Kombucha?</a>
+                        </li>
+                        <li class="nav-mobile__menu-item">
+                            <a href="delivery.html" class="nav-mobile__menu-link">Delivery</a>
+                        </li>
+                        <li class="nav-mobile__menu-item">
+                            <a href="#about" class="nav-mobile__menu-link">About Us</a>
+                        </li>
+                    </ul>
+                    <a href="cart.html" class="nav-mobile__menu-cart">
+                        <img src="../img/cart-color.svg" alt="Shopping Cart" class="nav-mobile__menu-icon">
+                    </a>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="../index.html">
+                    <img src="../img/logo.jpg" alt="Logo" class="nav__img">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="shop.html" class="nav__link nav__link--1">Shop</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="what-is-kombucha.html" class="nav__link">What is Kombucha?</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="delivery.html" class="nav__link">Delivery</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Us</a>
+                    </li>
+                </ul>
+                <a href="cart.html" class="nav__cart">
+                    <img src="../img/cart-color.svg" alt="Shopping Cart" class="nav__cart-icon">
+                </a>
+            </nav>
+            <div class="cart__box">
+                <div class="cart__checkout">
+                    <div class="cart__product">
+                        <h1 class="heading-primary u-margin-bottom-small u-margin-top-small">Shopping Cart</h1>
+                        <p class="cart__product-text">You have 4 items in your cart</p>
+                        <ul class="cart__product-list">
+                            <li class="cart__product-item">
+                                <img src="../img/jamaica-color.svg" alt="Jamaica Icon" class="cart__product-icon">
+                                <p class="cart__product-text">Jamaica</p>
+                                <div class="shop-box__amount-order">
+                                    <span class="shop-box__amount-decrease shop-box__amount-decrease--1">&minus;</span>
+                                    <input type="number" class="shop-box__amount-input" min="0" value="0">
+                                    <span class="shop-box__amount-increase shop-box__amount-increase--1">&plus;</span>
+                                </div>
+                                <p class="cart__product-total">Q100</p>
+                                <img src="../img/delete.svg" alt="Delete Icon" class="cart__product-delete">
+                            </li>
+                            <li class="cart__product-item">
+                                <img src="../img/chai-color.svg" alt="Jamaica Icon" class="cart__product-icon">
+                                <p class="cart__product-text">Chai</p>
+                                <div class="shop-box__amount-order">
+                                    <span class="shop-box__amount-decrease shop-box__amount-decrease--1">&minus;</span>
+                                    <input type="number" class="shop-box__amount-input" min="0" value="0">
+                                    <span class="shop-box__amount-increase shop-box__amount-increase--1">&plus;</span>
+                                </div>
+                                <p class="cart__product-total">Q100</p>
+                                <img src="../img/delete.svg" alt="Delete Icon" class="cart__product-delete">
+                            </li>
+                            <li class="cart__product-item">
+                                <img src="../img/ginger-color.svg" alt="Jamaica Icon" class="cart__product-icon cart__product-icon--1">
+                                <img src="../img/lemongrass-color.svg" alt="Jamaica Icon" class="cart__product-icon">
+                                <p class="cart__product-text">Jengibre con Lemongrass</p>
+                                <div class="shop-box__amount-order">
+                                    <span class="shop-box__amount-decrease shop-box__amount-decrease--1">&minus;</span>
+                                    <input type="number" class="shop-box__amount-input" min="0" value="0">
+                                    <span class="shop-box__amount-increase shop-box__amount-increase--1">&plus;</span>
+                                </div>
+                                <p class="cart__product-total">Q100</p>
+                                <img src="../img/delete.svg" alt="Delete Icon" class="cart__product-delete">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cart__payment">
+                        <p class="cart__payment-heading">Card Details</p>
+                        <p class="cart__payment-text">Card Type</p>
+                        <ul class="cart__payment-list">
+                            <li class="cart__payment-item">
+                                <img src="../img/visa.svg" alt="Visa" class="cart__payment-icon">
+                            </li>
+                            <li class="cart__payment-item">
+                                <img src="../img/mastercard.svg" alt="Mastercard" class="cart__payment-icon">
+                            </li>
+                        </ul>
+                        <p class="cart__payment-text">Name on Card</p>
+                        <input type="text" class="cart__payment-input">
+                        <p class="cart__payment-text">Card Number</p>
+                        <input type="text" class="cart__payment-input">
+                        <div class="cart__payment-box">
+                            <div class="cart__payment-exp">
+                                <p class="cart__payment-text">Expiration Date</p>
+                                <input type="text" class="cart__payment-input">
+                            </div>
+                            <div class="cart__payment-cvv">
+                                <p class="cart__payment-text">CVV</p>
+                                <input type="text" class="cart__payment-input">
+                            </div>
+                        </div>
+                        <div class="cart__payment-info">
+                            <p class="cart__payment-description">Subtotal</p>
+                            <p class="cart__payment-cost">Q400</p>
+                        </div>
+                        <div class="cart__payment-info">
+                            <p class="cart__payment-description">Delivery</p>
+                            <p class="cart__payment-cost">Q50</p>
+                        </div>
+                        <div class="cart__payment-info">
+                            <p class="cart__payment-description">Total</p>
+                            <p class="cart__payment-cost">Q450</p>
+                        </div>
+                        <button class="cart__payment-submit">
+                            <span class="cart__payment-total">Q450</span>
+                            <span class="cart__payment-checkout">Checkout &rarr;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
