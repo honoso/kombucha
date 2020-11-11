@@ -1,0 +1,82 @@
+.section-contact {
+    height: 100vh;
+    background-image: url(../img/insta-5.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    &__box {
+        background-color: #fff;
+        padding: 7rem 5rem;
+
+        @include respond(tab-land) {
+            padding: 5rem 3rem;
+        }
+
+        h1 {
+            margin-bottom: 8rem;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        font-size: 3rem;
+
+        &-list {
+            list-style: none;
+            margin-bottom: 5rem;
+        }
+
+        &-item {
+            display: flex;
+            align-items: center;
+
+            &:not(:last-child) {
+                margin-bottom: 3rem;
+            }
+        }
+
+        span {
+            -webkit-mask-size: cover;
+            mask-size: cover;
+            background-color: $color-blue-dark;
+            height: 5rem;
+            width: 5rem;
+            margin-right: 2rem; 
+        }
+
+        &-icon {
+
+            &--1 {
+                -webkit-mask: url(../img/phone.svg);
+                mask: url(../img/phone.svg); 
+            }
+
+            &--2 {
+                -webkit-mask: url(../img/instagram.svg);
+                mask: url(../img/instagram.svg); 
+            }
+
+            &--3 {
+                -webkit-mask: url(../img/mail.svg);
+                mask: url(../img/mail.svg); 
+            }
+        }
+
+        &-link {
+
+            &:visited,
+            &:link {
+                text-decoration: none;
+                color: $color-yellow;
+                background-color: $color-blue-dark;
+                padding: 1rem;
+                border-radius: .5rem;
+            }
+        }
+    }
+}

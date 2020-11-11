@@ -89,7 +89,8 @@ html {
   background-color: #F0BA70;
   color: #435956;
   border-radius: .2rem;
-  transition: all .3s; }
+  transition: all .3s;
+  text-align: center; }
 
 .btn:active, .btn:hover {
   background-color: #435956;
@@ -286,7 +287,8 @@ html {
     margin-left: auto; }
     .nav__cart-icon {
       height: 5rem;
-      width: 5rem; }
+      width: 5rem;
+      display: none; }
   .nav-mobile {
     padding: 4rem 0 1rem 1rem;
     width: 100%;
@@ -328,7 +330,8 @@ html {
         padding-bottom: .5rem; }
       .nav-mobile__menu-icon {
         height: 7rem;
-        width: 7rem; }
+        width: 7rem;
+        display: none; }
   .nav__checkbox {
     display: none; }
   .nav__circle {
@@ -375,145 +378,56 @@ html {
   width: 100vw;
   z-index: 999; }
 
-.cart {
+.section-contact {
   height: 100vh;
-  color: #F0BA70;
+  background-image: url(../img/insta-5.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
-  flex-direction: column; }
-  .cart__box {
-    background-color: #435956;
-    flex: 1;
+  align-items: flex-end;
+  justify-content: flex-end; }
+  .section-contact__box {
+    background-color: #fff;
+    padding: 7rem 5rem; }
+    @media only screen and (max-width: 75em) {
+      .section-contact__box {
+        padding: 5rem 3rem; } }
+    .section-contact__box h1 {
+      margin-bottom: 8rem; }
+  .section-contact__info {
     display: flex;
-    flex-direction: column; }
-  .cart__checkout {
-    flex: 1;
-    display: flex; }
-  .cart__product {
-    margin-left: 3rem;
-    flex: 0 0 60%; }
-    .cart__product-list {
-      margin-top: 2.5rem;
-      display: flex;
-      flex-direction: column; }
-    .cart__product-item {
+    flex-direction: column;
+    font-size: 3rem; }
+    .section-contact__info-list {
       list-style: none;
-      background-color: #F0BA70;
-      color: #435956;
-      margin-right: 3rem;
-      padding: 1.5rem;
-      border-radius: .5rem;
-      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      margin-bottom: 5rem; }
+    .section-contact__info-item {
       display: flex;
       align-items: center; }
-      .cart__product-item:not(:last-child) {
-        margin-bottom: 5rem; }
-    .cart__product-icon {
-      height: 8rem;
-      width: 8rem;
+      .section-contact__info-item:not(:last-child) {
+        margin-bottom: 3rem; }
+    .section-contact__info span {
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: #435956;
+      height: 5rem;
+      width: 5rem;
       margin-right: 2rem; }
-      .cart__product-icon--1 {
-        margin-right: -2rem; }
-    .cart__product-text {
-      font-size: 2rem;
-      font-weight: 500;
-      margin-right: auto; }
-    .cart__product-total {
-      font-size: 2.5rem;
-      font-weight: 700;
-      margin-right: 2rem; }
-    .cart__product-delete {
-      height: 3rem;
-      width: 3rem;
-      transition: all .3s; }
-      .cart__product-delete:hover {
-        transform: scale(1.3); }
-      .cart__product-delete:active {
-        transform: scale(0.9); }
-    .cart__product-box {
-      display: flex; }
-  .cart__payment {
-    background-color: #fff;
-    color: #435956;
-    margin: 3rem 2rem;
-    padding: 3rem;
-    border-radius: 2rem;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    flex: 1;
-    display: flex;
-    flex-direction: column; }
-    .cart__payment-heading {
-      font-size: 2.5rem;
-      font-weight: 600;
-      margin-bottom: 2rem; }
-    .cart__payment-text {
-      font-size: 1.6rem;
-      font-weight: 500;
-      margin-bottom: 1rem; }
-    .cart__payment-list {
-      list-style: none;
-      margin-bottom: 2rem;
-      display: flex; }
-    .cart__payment-item {
-      border: 2px solid rgba(67, 89, 86, 0.5);
-      border-radius: .5rem;
-      padding: -1rem;
-      transition: all .3s; }
-      .cart__payment-item:not(:last-child) {
-        margin-right: 3rem; }
-      .cart__payment-item:hover {
-        border: 2px solid #435956;
-        background-color: rgba(67, 89, 86, 0.1); }
-    .cart__payment-icon {
-      height: 7rem;
-      width: 10rem; }
-    .cart__payment-input {
-      margin-bottom: 2rem;
-      padding: 1.3rem;
-      border: none;
-      border-radius: .5rem;
-      background-color: rgba(67, 89, 86, 0.2);
-      font-size: 1.8rem;
-      color: #402E32; }
-      .cart__payment-input:focus {
-        outline: none; }
-    .cart__payment-box {
-      border-bottom: 2px solid rgba(67, 89, 86, 0.2);
-      display: flex; }
-    .cart__payment-exp {
-      margin-right: 3rem; }
-    .cart__payment-info {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 1rem; }
-    .cart__payment-description {
-      font-size: 1.6rem;
-      font-weight: 400; }
-    .cart__payment-cost {
-      font-size: 1.5rem;
-      font-weight: 500; }
-    .cart__payment-submit {
-      margin-top: 2rem;
-      padding: 2rem 3rem;
-      border: none;
-      border-radius: 1rem;
-      background-color: rgba(64, 46, 50, 0.8);
-      color: #fff;
-      font-size: 1.8rem;
-      cursor: pointer;
-      transition: all .3s;
-      display: flex;
-      align-items: center;
-      justify-content: space-between; }
-      .cart__payment-submit:focus {
-        outline: none; }
-      .cart__payment-submit:hover {
-        transform: scale(1.04) translateY(-0.5rem);
-        background-color: #402E32; }
-      .cart__payment-submit:active {
-        transform: scale(0.98) translateY(0);
-        background-color: #402E32; }
-    .cart__payment-total {
-      font-weight: 600; }
+    .section-contact__info-icon--1 {
+      -webkit-mask: url(../img/phone.svg);
+      mask: url(../img/phone.svg); }
+    .section-contact__info-icon--2 {
+      -webkit-mask: url(../img/instagram.svg);
+      mask: url(../img/instagram.svg); }
+    .section-contact__info-icon--3 {
+      -webkit-mask: url(../img/mail.svg);
+      mask: url(../img/mail.svg); }
+    .section-contact__info-link:visited, .section-contact__info-link:link {
+      text-decoration: none;
+      color: #F0BA70;
+      background-color: #435956;
+      padding: 1rem;
+      border-radius: .5rem; }
 
 .delivery-header {
   height: 100vh;
@@ -844,6 +758,7 @@ html {
         flex: initial;
         height: 65vh; } }
   .shop-box__buy {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -893,69 +808,87 @@ html {
       .shop-box__ingredients {
         margin-top: 0; } }
     .shop-box__ingredients-heading {
-      font-size: 3rem;
+      font-size: 4rem;
       font-weight: 400; }
     .shop-box__ingredients-text {
-      font-size: 2rem;
-      align-self: flex-start; }
-  .shop-box__amount {
-    margin-bottom: 5rem;
-    display: flex; }
-    .shop-box__amount-box {
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-      .shop-box__amount-box:not(:last-child) {
-        margin-right: -5rem; }
-    .shop-box__amount-count {
-      display: flex;
-      margin-bottom: 1rem; }
-    .shop-box__amount-text {
-      font-size: 2.3rem;
-      margin-bottom: 1.5rem; }
-      .shop-box__amount-text:not(:last-child) {
-        margin-right: 1rem; }
-    .shop-box__amount-order {
-      display: flex;
-      justify-content: center; }
-    .shop-box__amount-input {
-      border: none;
-      border: 2px solid #435956;
-      width: 30%;
-      font-size: 1.8rem;
+      font-size: 3rem;
+      align-self: center; }
+  .shop-box__pricing-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .shop-box__pricing-item {
+    font-size: 3rem;
+    background-color: #435956;
+    color: #F0BA70;
+    padding: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    margin-bottom: 3rem; }
+    .shop-box__pricing-item:not(:last-child) {
+      margin-right: 3rem; }
+  .shop-box__contact {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .shop-box__contact-text {
+      font-size: 3.5rem;
+      text-transform: uppercase;
       text-align: center;
+      border-bottom: 2px solid currentColor;
+      margin-bottom: 2rem; }
+    .shop-box__contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column; }
+    .shop-box__contact-item {
+      font-size: 2.5rem;
+      text-align: center;
+      display: flex;
+      align-items: center; }
+      .shop-box__contact-item:not(:last-child) {
+        margin-right: 1rem; }
+        @media only screen and (max-width: 37.5em) {
+          .shop-box__contact-item:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 2rem; } }
+    .shop-box__contact span {
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: #435956;
+      height: 3rem;
+      width: 3rem;
+      margin-right: 2rem; }
+    .shop-box__contact-icon--1 {
+      -webkit-mask: url(../img/phone.svg);
+      mask: url(../img/phone.svg); }
+    .shop-box__contact-icon--2 {
+      -webkit-mask: url(../img/instagram.svg);
+      mask: url(../img/instagram.svg); }
+    .shop-box__contact-icon--3 {
+      -webkit-mask: url(../img/mail.svg);
+      mask: url(../img/mail.svg); }
+    .shop-box__contact-link:visited, .shop-box__contact-link:link {
+      text-decoration: none;
+      color: currentColor;
+      background-color: rgba(67, 89, 86, 0.4);
       padding: 1rem;
-      -moz-appearance: textfield; }
-      .shop-box__amount-input:focus {
-        outline: none; }
-      .shop-box__amount-input::-webkit-inner-spin-button, .shop-box__amount-input::-webkit-outer-spin-button {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        margin: 0; }
-    .shop-box__amount-increase, .shop-box__amount-decrease {
-      font-size: 1.8rem;
-      border: 2px solid #435956;
-      padding: 1rem;
-      cursor: pointer;
-      transition: all .2s;
-      -webkit-user-select: none;
-      -ms-user-select: none;
-      user-select: none; }
-    .shop-box__amount-increase:hover, .shop-box__amount-decrease:hover {
-      background-color: rgba(67, 89, 86, 0.2); }
-    .shop-box__amount-increase:active, .shop-box__amount-decrease:active {
-      background-color: rgba(67, 89, 86, 0.5); }
-    .shop-box__amount-increase {
-      border-left: none; }
-    .shop-box__amount-decrease {
-      border-right: none; }
+      border-radius: .5rem;
+      transition: all .3s; }
+    .shop-box__contact-link:active, .shop-box__contact-link:hover {
+      background-color: #435956;
+      color: #F0BA70; }
 
 .what-is-kombucha-header {
   height: 85vh;
   color: #fff;
   display: flex;
   flex-direction: column; }
+  @media only screen and (max-width: 37.5em) {
+    .what-is-kombucha-header {
+      height: initial; } }
   .what-is-kombucha-header__banner {
     padding: 5rem 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/market.jpg);

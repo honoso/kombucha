@@ -23,6 +23,7 @@
     }
 
     &__buy {
+        flex: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -97,102 +98,212 @@
         }
 
         &-heading {
-            font-size: 3rem;
+            font-size: 4rem;
             font-weight: 400;
         }
 
         &-text {
-            font-size: 2rem;
-            align-self: flex-start;
+            font-size: 3rem;
+            align-self: center;
+
         }
     }
 
-    &__amount {
-        margin-bottom: 5rem;
+    &__pricing{
+
+        &-list {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        &-item {
+            font-size: 3rem;
+            background-color: $color-blue-dark;
+            color: $color-yellow;
+            padding: 2rem;
+            border-radius: .5rem;
+            text-align: center;
+            margin-bottom: 3rem;
+
+            &:not(:last-child) {
+                margin-right: 3rem;
+            }
+        }
+    }
+
+    &__contact {
+        margin-bottom: 2rem;
+
         display: flex;
-        
-        &-box {
+        flex-direction: column;
+        align-items: center;
+
+        &-text {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            text-align: center;
+            border-bottom: 2px solid currentColor;
+            margin-bottom: 2rem;
+        }
+
+        &-list {
+            list-style: none;
             display: flex;
             flex-direction: column;
+        }
+
+        &-item {
+            font-size: 2.5rem;
+            text-align: center;
+
+            display: flex;
             align-items: center;
 
             &:not(:last-child) {
-                margin-right: -5rem;
-            }
-        }
-
-        &-count {
-            display: flex;
-            margin-bottom: 1rem;
-        }
-
-        &-text {
-            font-size: 2.3rem;
-            margin-bottom: 1.5rem;
-
-            &:not(:last-child) {
                 margin-right: 1rem;
+
+                @include respond(phone) {
+                    margin-right: 0;
+                    margin-bottom: 2rem;
+                }
             }
         }
 
-        &-order {
-            display: flex;
-            justify-content: center;
+        span {
+            -webkit-mask-size: cover;
+            mask-size: cover;
+            background-color: $color-blue-dark;
+            height: 3rem;
+            width: 3rem;
+            margin-right: 2rem; 
         }
 
-        &-input {
-            border: none;
-            border: 2px solid $color-blue-dark;
-            width: 30%;
-            font-size: 1.8rem;
-            text-align: center;
-            padding: 1rem;
-            -moz-appearance:textfield;
+        &-icon {
 
-
-            &:focus {
-                outline: none;
+            &--1 {
+                -webkit-mask: url(../img/phone.svg);
+                mask: url(../img/phone.svg);
             }
 
-            // Gets rid of the arrows
-            &::-webkit-inner-spin-button, 
-            &::-webkit-outer-spin-button { 
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                appearance: none;
-                margin: 0; 
+            &--2 {
+                -webkit-mask: url(../img/instagram.svg);
+                mask: url(../img/instagram.svg); 
+            }
+
+            &--3 {
+                -webkit-mask: url(../img/mail.svg);
+                mask: url(../img/mail.svg);
             }
         }
 
-        &-increase,
-        &-decrease {
-            font-size: 1.8rem;
-            border: 2px solid $color-blue-dark;
-            padding: 1rem;
-            cursor: pointer;
-            transition: all .2s;
+        &-link {
+            
+            &:visited,
+            &:link {
+                text-decoration: none;
+                color: currentColor;
+                background-color: rgba($color-blue-dark, .4);
+                padding: 1rem;
+                border-radius: .5rem;
+                transition: all .3s;
+            }
 
-            -webkit-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        &-increase:hover,
-        &-decrease:hover {
-            background-color: rgba(67, 89, 86, .2);
-        }
-
-        &-increase:active,
-        &-decrease:active {
-            background-color: rgba(67, 89, 86, .5);
-        }
-
-        &-increase {
-            border-left: none;
-        }
-
-        &-decrease {
-            border-right: none;
+            &:active,
+            &:hover {
+                background-color: $color-blue-dark;
+                color: $color-yellow;
+            }
         }
     }
+
+    // &__amount {
+    //     margin-bottom: 5rem;
+    //     display: flex;
+        
+    //     &-box {
+    //         display: flex;
+    //         flex-direction: column;
+    //         align-items: center;
+
+    //         &:not(:last-child) {
+    //             margin-right: -5rem;
+    //         }
+    //     }
+
+    //     &-count {
+    //         display: flex;
+    //         margin-bottom: 1rem;
+    //     }
+
+    //     &-text {
+    //         font-size: 2.3rem;
+    //         margin-bottom: 1.5rem;
+
+    //         &:not(:last-child) {
+    //             margin-right: 1rem;
+    //         }
+    //     }
+
+    //     &-order {
+    //         display: flex;
+    //         justify-content: center;
+    //     }
+
+    //     &-input {
+    //         border: none;
+    //         border: 2px solid $color-blue-dark;
+    //         width: 30%;
+    //         font-size: 1.8rem;
+    //         text-align: center;
+    //         padding: 1rem;
+    //         -moz-appearance:textfield;
+
+
+    //         &:focus {
+    //             outline: none;
+    //         }
+
+    //         // Gets rid of the arrows
+    //         &::-webkit-inner-spin-button, 
+    //         &::-webkit-outer-spin-button { 
+    //             -webkit-appearance: none;
+    //             -moz-appearance: none;
+    //             appearance: none;
+    //             margin: 0; 
+    //         }
+    //     }
+
+    //     &-increase,
+    //     &-decrease {
+    //         font-size: 1.8rem;
+    //         border: 2px solid $color-blue-dark;
+    //         padding: 1rem;
+    //         cursor: pointer;
+    //         transition: all .2s;
+
+    //         -webkit-user-select: none;
+    //         -ms-user-select: none;
+    //         user-select: none;
+    //     }
+
+    //     &-increase:hover,
+    //     &-decrease:hover {
+    //         background-color: rgba(67, 89, 86, .2);
+    //     }
+
+    //     &-increase:active,
+    //     &-decrease:active {
+    //         background-color: rgba(67, 89, 86, .5);
+    //     }
+
+    //     &-increase {
+    //         border-left: none;
+    //     }
+
+    //     &-decrease {
+    //         border-right: none;
+    //     }
+    // }
 }
