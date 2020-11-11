@@ -378,6 +378,26 @@ html {
   width: 100vw;
   z-index: 999; }
 
+.section-about {
+  display: flex;
+  flex-direction: column; }
+  .section-about__img {
+    background-image: url(../img/coco-and-romeo.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 100vw; }
+  .section-about__info {
+    padding: 5rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .section-about__info h1 {
+      margin-bottom: 2rem; }
+    .section-about__info p {
+      line-height: 1.7;
+      font-size: 3rem; }
+
 .section-contact {
   height: 100vh;
   background-image: url(../img/insta-5.jpg);
