@@ -247,8 +247,12 @@
         justify-content: center;
 
         &--1 {
-            margin-right: 3rem;
+            margin-left: 3rem;
             justify-content: flex-end;
+            background-image: url(../img/people-drinking.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 50rem;
 
             @include respond(tab-port) {
                 width: 80%;       
@@ -257,6 +261,10 @@
 
             @include respond(phone) {
                 margin-bottom: 3rem;
+            }
+
+            @include respond(phone-small) {
+                background-position: left;
             }
         }
 
