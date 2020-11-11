@@ -812,7 +812,8 @@ html {
       font-weight: 400; }
     .shop-box__ingredients-text {
       font-size: 3rem;
-      align-self: center; }
+      align-self: center;
+      text-align: center; }
   .shop-box__pricing-list {
     list-style: none;
     display: flex;
