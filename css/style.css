@@ -813,7 +813,8 @@ html {
     .shop-box__ingredients-text {
       font-size: 3rem;
       align-self: center;
-      text-align: center; }
+      text-align: center;
+      padding: 0 1rem; }
   .shop-box__pricing-list {
     list-style: none;
     display: flex;
