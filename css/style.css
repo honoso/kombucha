@@ -602,12 +602,16 @@ html {
     display: flex; }
     @media only screen and (max-width: 30em) {
       .header__list {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        margin-bottom: 1rem; } }
   .header__item {
     font-size: 1.8rem;
     display: flex;
     flex-direction: column;
     align-items: center; }
+    @media only screen and (max-width: 30em) {
+      .header__item {
+        margin-bottom: 3rem; } }
     .header__item:not(:last-child) {
       margin-right: 4rem; }
   .header__circle {

@@ -61,7 +61,8 @@
         display: flex;
 
         @include respond(phone-small) {
-            flex-wrap: wrap;      
+            flex-wrap: wrap;    
+            margin-bottom: 1rem;  
         }
     }
 
@@ -71,6 +72,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @include respond(phone-small) {
+            margin-bottom: 3rem;
+        }
 
         &:not(:last-child) {
             margin-right: 4rem;
