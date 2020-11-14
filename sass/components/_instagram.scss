@@ -22,6 +22,9 @@
 
         &--3 {
             background-image: url(../img/insta-3.jpg);
+            @include respond(phone-small) {
+                display: none;
+            }
         }
 
         &--4 {
