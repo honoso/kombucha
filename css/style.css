@@ -631,6 +631,9 @@ html {
     .header__circle-text {
       color: #000;
       font-size: 1.6rem; }
+  @media only screen and (max-width: 30em) {
+    .header a {
+      align-self: center; } }
 
 .section-mission {
   padding: 8rem 0;

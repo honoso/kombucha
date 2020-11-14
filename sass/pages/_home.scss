@@ -105,6 +105,12 @@
             font-size: 1.6rem;
         }
     }
+
+    a {
+        @include respond(phone-small) {
+            align-self: center;
+        }
+    }
 }
 
 .section-mission {
