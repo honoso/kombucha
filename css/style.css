@@ -106,30 +106,45 @@ html {
   color: #435956;
   border: 2px solid #435956; }
 
-.instagram__container {
-  display: flex; }
-
-.instagram__img {
-  width: 20%; }
-
-.instagram__tags {
-  padding: 2rem 0;
-  background-color: #435956;
+.instagram {
   display: flex;
-  justify-content: center; }
-  @media only screen and (max-width: 30em) {
-    .instagram__tags {
-      flex-direction: column;
-      align-items: center; } }
-  .instagram__tags-text {
-    font-size: 3rem;
-    color: #F0BA70; }
-    .instagram__tags-text:not(:last-child) {
-      margin-right: 5rem; }
-      @media only screen and (max-width: 30em) {
-        .instagram__tags-text:not(:last-child) {
-          margin-right: 0;
-          margin-bottom: 2rem; } }
+  flex-direction: column; }
+  .instagram__container {
+    display: flex; }
+  .instagram__img {
+    flex: 1;
+    height: 45vh;
+    background-size: cover;
+    background-position: center; }
+    .instagram__img--1 {
+      background-image: url(../img/insta-1.jpg); }
+    .instagram__img--2 {
+      background-image: url(../img/insta-2.jpg); }
+    .instagram__img--3 {
+      background-image: url(../img/insta-3.jpg); }
+    .instagram__img--4 {
+      background-image: url(../img/insta-4.jpg); }
+      @media only screen and (max-width: 37.5em) {
+        .instagram__img--4 {
+          display: none; } }
+  .instagram__tags {
+    padding: 2rem 0;
+    background-color: #435956;
+    display: flex;
+    justify-content: center; }
+    @media only screen and (max-width: 30em) {
+      .instagram__tags {
+        flex-direction: column;
+        align-items: center; } }
+    .instagram__tags-text {
+      font-size: 3rem;
+      color: #F0BA70; }
+      .instagram__tags-text:not(:last-child) {
+        margin-right: 5rem; }
+        @media only screen and (max-width: 30em) {
+          .instagram__tags-text:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 2rem; } }
 
 .footer {
   padding: 10rem 0;

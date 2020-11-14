@@ -1,40 +1,40 @@
-const appID = "1276632006018631";
-const clientToken = "530134b34e11b6c4a44edb69fb93381d {delete}";
-const url = "https://www.instagram.com/p/CGDdgrxsy--/";
-const getURL = `https://graph.facebook.com/v8.0/instagram_oembed?url=${url}&access_token=${appID}|${clientToken}`;
+// const appID = "1276632006018631";
+// const clientToken = "530134b34e11b6c4a44edb69fb93381d {delete}";
+// const url = "https://www.instagram.com/p/CGDdgrxsy--/";
+// const getURL = `https://graph.facebook.com/v8.0/instagram_oembed?url=${url}&access_token=${appID}|${clientToken}`;
 
-const axios = require('axios');
+// const axios = require('axios');
 
-async function getImage() {
-  try {
-    const response = await axios({
-      method: 'get',
-      url: getURL,
-      fields: 'thumbnail_url',
-      access_token: `${appID}|${clientToken}`,
-    });
-    const picture = response.data.thumbnail_url;
-    console.log(picture);
-    document.querySelector('.instagram__container').innerHTML = `
-      <img src="${picture}" alt="Insta Photo 1" class="instagram__img">
-      <img src="${picture}" alt="Insta Photo 2" class="instagram__img">
-      <img src="${picture}" alt="Insta Photo 3" class="instagram__img">
-      <img src="${picture}" alt="Insta Photo 4" class="instagram__img">
-      <img src="${picture}" alt="Insta Photo 5" class="instagram__img">
-    `;
-  } catch (error) {
-    console.error(error);
-    document.querySelector('.instagram__container').innerHTML = `
-      <img src="../img/insta-1.jpg" alt="Insta Photo 1" class="instagram__img">
-      <img src="../img/insta-2.jpg" alt="Insta Photo 2" class="instagram__img">
-      <img src="../img/insta-3.jpg" alt="Insta Photo 3" class="instagram__img">
-      <img src="../img/insta-4.jpg" alt="Insta Photo 4" class="instagram__img">
-      <img src="../img/insta-5.jpg" alt="Insta Photo 5" class="instagram__img">
-    `
-  }
-}
+// async function getImage() {
+//   try {
+//     const response = await axios({
+//       method: 'get',
+//       url: getURL,
+//       fields: 'thumbnail_url',
+//       access_token: `${appID}|${clientToken}`,
+//     });
+//     const picture = response.data.thumbnail_url;
+//     console.log(picture);
+//     document.querySelector('.instagram__container').innerHTML = `
+//       <img src="${picture}" alt="Insta Photo 1" class="instagram__img">
+//       <img src="${picture}" alt="Insta Photo 2" class="instagram__img">
+//       <img src="${picture}" alt="Insta Photo 3" class="instagram__img">
+//       <img src="${picture}" alt="Insta Photo 4" class="instagram__img">
+//       <img src="${picture}" alt="Insta Photo 5" class="instagram__img">
+//     `;
+//   } catch (error) {
+//     console.error(error);
+//     document.querySelector('.instagram__container').innerHTML = `
+//       <img src="../img/insta-1.jpg" alt="Insta Photo 1" class="instagram__img">
+//       <img src="../img/insta-2.jpg" alt="Insta Photo 2" class="instagram__img">
+//       <img src="../img/insta-3.jpg" alt="Insta Photo 3" class="instagram__img">
+//       <img src="../img/insta-4.jpg" alt="Insta Photo 4" class="instagram__img">
+//       <img src="../img/insta-5.jpg" alt="Insta Photo 5" class="instagram__img">
+//     `
+//   }
+// }
 
-getImage();
+// getImage();
 
 // Tracks amount of each item selected
 let amount = {
