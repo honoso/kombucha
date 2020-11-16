@@ -419,7 +419,8 @@ html {
       margin-bottom: 2rem; }
     .section-about__info p {
       line-height: 1.7;
-      font-size: 3rem; }
+      font-size: 3rem;
+      margin-bottom: 5rem; }
 
 .section-contact {
   height: 100vh;
