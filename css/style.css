@@ -687,6 +687,7 @@ html {
       .section-product__box {
         flex-direction: column; } }
   .section-product__container {
+    background-color: orangered;
     display: flex;
     flex-direction: column;
     align-items: center;
