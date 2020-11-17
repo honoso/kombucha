@@ -31,8 +31,8 @@
         color: $color-brown;
 
         h1 {
+            text-align: center;
             @include respond(tab-land) {
-                text-align: center;
                 margin-bottom: 2rem !important;
             }
 
@@ -146,13 +146,16 @@
             text-transform: uppercase;
             text-align: center;
             border-bottom: 2px solid currentColor;
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
         }
 
         &-list {
             list-style: none;
             display: flex;
-            flex-direction: column;
+
+            @include respond(tab-land) {
+                flex-direction: column;
+            }
         }
 
         &-item {
@@ -163,10 +166,10 @@
             align-items: center;
 
             &:not(:last-child) {
-                margin-right: 1rem;
-                margin-bottom: 2rem;
+                margin-right: 3rem;
 
-                @include respond(phone) {
+                @include respond(tab-land) {
+                    margin-bottom: 2rem;
                     margin-right: 0;
                 }
             }
@@ -176,16 +179,16 @@
             -webkit-mask-size: cover;
             mask-size: cover;
             background-color: $color-blue-dark;
-            height: 3rem;
-            width: 3rem;
+            height: 5rem;
+            width: 5rem;
             margin-right: 2rem; 
         }
 
         &-icon {
 
             &--1 {
-                -webkit-mask: url(../img/phone.svg);
-                mask: url(../img/phone.svg);
+                -webkit-mask: url(../img/whatsapp.svg);
+                mask: url(../img/whatsapp.svg);
             }
 
             &--2 {
@@ -208,6 +211,7 @@
                 background-color: rgba($color-blue-dark, .4);
                 padding: 1rem;
                 border-radius: .5rem;
+                box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, .15);
                 transition: all .3s;
             }
 

@@ -1,1 +1,1148 @@
-*{padding:0;margin:0}*,*::before,*::after{-webkit-box-sizing:inherit;box-sizing:inherit}html{-webkit-box-sizing:border-box;box-sizing:border-box;font-size:62.5%}@media only screen and (max-width: 75em){html{font-size:56.25%}}@media only screen and (max-width: 56.25em){html{font-size:50%}}@media only screen and (max-width: 37.5em){html{font-size:43.75%}}@media only screen and (max-width: 30em){html{font-size:40.625%}}body{background-color:#fff}html{font-family:'Roboto', sans-serif;font-weight:400;line-height:1.15}.paragraph{font-size:2.5rem;font-weight:700}.heading-primary{font-size:8rem;font-weight:300;text-transform:uppercase}.heading-secondary{font-size:5rem;font-weight:400;text-transform:uppercase}.heading-tertiary{font-size:3.5rem;font-weight:600;text-transform:uppercase}.heading-quaternary{font-size:1.8rem;font-weight:400;text-transform:uppercase}.u-margin-top-small{margin-top:3rem !important}.u-margin-top-big{margin-top:10rem !important}.u-margin-bottom-small{margin-bottom:2rem !important}.u-margin-bottom-medium{margin-bottom:5rem !important}.selected{background-color:rgba(67,89,86,0.5) !important}.btn:link,.btn:visited,.btn__inverted:link,.btn__inverted:visited{text-decoration:none;font-size:2rem;padding:1.5rem 2rem;background-color:#F0BA70;color:#435956;border-radius:.2rem;-webkit-transition:all .3s;transition:all .3s;text-align:center}@media only screen and (max-width: 37.5em){.btn:link,.btn:visited,.btn__inverted:link,.btn__inverted:visited{font-size:3rem;padding:2.5rem 3rem}}.btn:active,.btn:hover{background-color:#435956;color:#F0BA70}.btn__inverted:link,.btn__inverted:visited{background-color:#435956;color:#F0BA70;border:2px solid transparent}.btn__inverted:active,.btn__inverted:hover{background-color:#F0BA70;color:#435956;border:2px solid #435956}.instagram{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.instagram__container{display:-webkit-box;display:-ms-flexbox;display:flex}.instagram__img{-webkit-box-flex:1;-ms-flex:1;flex:1;height:45vh;background-size:cover;background-position:center}.instagram__img--1{background-image:url(../img/insta-1.jpg)}.instagram__img--2{background-image:url(../img/insta-2.jpg)}.instagram__img--3{background-image:url(../img/insta-3.jpg)}@media only screen and (max-width: 30em){.instagram__img--3{display:none}}.instagram__img--4{background-image:url(../img/insta-4.jpg)}@media only screen and (max-width: 37.5em){.instagram__img--4{display:none}}.instagram__tags{padding:2rem 0;background-color:#435956;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@media only screen and (max-width: 30em){.instagram__tags{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}}.instagram__tags-text{font-size:3rem;color:#F0BA70}.instagram__tags-text:not(:last-child){margin-right:5rem}@media only screen and (max-width: 30em){.instagram__tags-text:not(:last-child){margin-right:0;margin-bottom:2rem}}.footer{padding:10rem 0;background-color:#1D1D1E;color:#F0BA70;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}@media only screen and (max-width: 37.5em){.footer{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:5rem 0}}.footer__info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@media only screen and (max-width: 37.5em){.footer__info{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}}.footer__info-box{display:-webkit-box;display:-ms-flexbox;display:flex}.footer__info-box--1{margin-bottom:2rem}.footer__info-icon{height:2rem;width:2rem;margin-right:2rem}@media only screen and (max-width: 37.5em){.footer__info-icon{height:2.5rem;width:2.5rem}}.footer__info-text{font-size:1.8rem}@media only screen and (max-width: 37.5em){.footer__info-text{font-size:2.5rem}}.footer__social{margin-top:3.5rem}@media only screen and (max-width: 37.5em){.footer__social{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;margin-bottom:5rem;-ms-flex-item-align:center;align-self:center}}.footer__social-list{display:-webkit-box;display:-ms-flexbox;display:flex}.footer__social-item{list-style:none;-webkit-transition:all .3s;transition:all .3s}.footer__social-item:not(:last-child){margin-right:2rem}.footer__social-item:hover{-webkit-transform:scale(1.8);transform:scale(1.8)}.footer__social-link{text-decoration:none}.footer__social-icon{height:2rem;width:2rem}@media only screen and (max-width: 37.5em){.footer__social-icon{height:3rem;width:3rem}}.footer__img{height:20rem;width:23rem;-ms-flex-item-align:center;align-self:center}@media only screen and (max-width: 37.5em){.footer__img{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;margin-bottom:5rem}}.footer__subscribe{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media only screen and (max-width: 37.5em){.footer__subscribe{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}}@media only screen and (max-width: 37.5em){.footer__subscribe h4{font-size:2.5rem;text-align:center}}.footer__subscribe-text{font-size:1.5rem}@media only screen and (max-width: 37.5em){.footer__subscribe-text{font-size:2rem}}.footer__subscribe-text:first-of-type{margin-top:2rem}.footer__subscribe-text:not(:last-of-type){margin-bottom:.5rem}.footer__subscribe-form{margin-top:2rem;display:-webkit-box;display:-ms-flexbox;display:flex}@media only screen and (max-width: 37.5em){.footer__subscribe-form{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-top:3rem}}.footer__subscribe-input{background-color:transparent;border:none;border-bottom:1px solid #435956;color:#F0707B;font-size:1.6rem;font-style:italic}@media only screen and (max-width: 37.5em){.footer__subscribe-input{font-size:2.5rem;margin-bottom:2rem;text-align:center}}.footer__subscribe-input:focus{outline:none}.footer__subscribe-submit{background-color:transparent;color:#F0707B;border:2px solid #435956;padding:1rem 1.5rem}@media only screen and (max-width: 37.5em){.footer__subscribe-submit{font-size:2.5rem}}.nav{background-color:#fff;padding-right:5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media only screen and (max-width: 56.25em){.nav{display:none}}.nav__img{height:11rem;width:14rem}.nav__list{display:-webkit-box;display:-ms-flexbox;display:flex;margin-left:5rem}.nav__item{list-style:none}.nav__item:not(:last-child){margin-right:1rem}.nav__link:link,.nav__link:visited{text-decoration:none;text-transform:uppercase;font-size:2rem;color:#435956;padding:1.5rem 2rem;-webkit-transition:all .3s;transition:all .3s;border-radius:.2rem}.nav__link--1:link,.nav__link--1:visited{color:#F0707B;font-weight:500}.nav__link:hover,.nav__link:active{color:#609B9A;background-color:#C7D790}.nav__cart{margin-left:auto}.nav__cart-icon{height:5rem;width:5rem;display:none}.nav-mobile{padding:4rem 0 1rem 1rem;width:100%;background-color:#fff;position:fixed;top:0;left:0;-webkit-transform:translateY(-30rem);transform:translateY(-30rem);-webkit-transition:all .5s;transition:all .5s;display:-webkit-box;display:-ms-flexbox;display:flex;visibility:hidden;opacity:0}.nav-mobile__menu{width:86%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}@media only screen and (max-width: 37.5em){.nav-mobile__menu{width:80%}}.nav-mobile__menu-img{width:18rem;margin-top:-2rem}.nav-mobile__menu-list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.nav-mobile__menu-item{list-style:none;margin-bottom:4rem;text-align:center}.nav-mobile__menu-item--link{line-height:1.7}.nav-mobile__menu-link:link,.nav-mobile__menu-link:visited{text-decoration:none;font-size:2.5rem;font-weight:700;color:#402E32;border-bottom:2px solid #435956;padding-bottom:.5rem}.nav-mobile__menu-icon{height:7rem;width:7rem;display:none}.nav__checkbox{display:none}.nav__circle{height:8rem;width:8rem;background-color:#435956;-webkit-box-shadow:0 1rem 2rem rgba(0,0,0,0.3);box-shadow:0 1rem 2rem rgba(0,0,0,0.3);border-radius:50%;margin:1.5rem 2rem 0 0;position:fixed;top:0;right:0;z-index:10;display:none;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@media only screen and (max-width: 56.25em){.nav__circle{display:-webkit-box;display:-ms-flexbox;display:flex}}.nav__circle-menu{height:.5rem;width:4rem;background-color:#F0BA70;border-radius:4rem;-webkit-transition:all .3s;transition:all .3s}.nav__circle-menu:not(:last-child){margin-bottom:1rem}.nav__checkbox:checked+.nav__circle .nav__circle-menu--1{-webkit-transform:translateY(1.5rem) rotate(135deg);transform:translateY(1.5rem) rotate(135deg)}.nav__checkbox:checked+.nav__circle .nav__circle-menu--2{opacity:0}.nav__checkbox:checked+.nav__circle .nav__circle-menu--3{-webkit-transform:translateY(-1.5rem) rotate(-135deg);transform:translateY(-1.5rem) rotate(-135deg)}.nav__checkbox:checked ~ .nav-mobile{visibility:visible;opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}.sticky{position:fixed;top:0;left:0;width:100vw;z-index:999}.section-about{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.section-about__img{background-image:url(../img/coco-and-romeo.jpg);background-size:cover;background-position:top;height:70vh;width:100vw}.section-about__info{padding:5rem 2rem;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.section-about__info h1{margin-bottom:2rem}.section-about__info p{line-height:1.7;font-size:3rem;margin-bottom:5rem}.section-contact{height:100vh;background-image:url(../img/insta-5.jpg);background-size:cover;background-position:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.section-contact__box{background-color:#fff;padding:7rem 5rem}@media only screen and (max-width: 75em){.section-contact__box{padding:5rem 3rem}}.section-contact__box h1{margin-bottom:8rem}.section-contact__info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;font-size:3rem}.section-contact__info-list{list-style:none;margin-bottom:5rem}.section-contact__info-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.section-contact__info-item:not(:last-child){margin-bottom:3rem}.section-contact__info span{-webkit-mask-size:cover;mask-size:cover;background-color:#435956;height:5rem;width:5rem;margin-right:2rem}.section-contact__info-icon--1{-webkit-mask:url(../img/phone.svg);mask:url(../img/phone.svg)}.section-contact__info-icon--2{-webkit-mask:url(../img/instagram.svg);mask:url(../img/instagram.svg)}.section-contact__info-icon--3{-webkit-mask:url(../img/mail.svg);mask:url(../img/mail.svg)}.section-contact__info-link:visited,.section-contact__info-link:link{text-decoration:none;color:#F0BA70;background-color:#435956;padding:1rem;border-radius:.5rem}.delivery-header{height:100vh;color:#435956;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}@media only screen and (max-width: 37.5em){.delivery-header{height:initial}}.delivery-header__box{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-ms-flex:1;flex:1;background-color:#F0BA70}@media only screen and (max-width: 37.5em){.delivery-header__box{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}.delivery-header__text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}@media only screen and (max-width: 37.5em){.delivery-header__text{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}}@media only screen and (max-width: 75em){.delivery-header__text h1{margin-top:4rem !important}}@media only screen and (max-width: 56.25em){.delivery-header__text h1{margin-top:0;margin-bottom:3rem}}@media only screen and (max-width: 37.5em){.delivery-header__text h1{margin-bottom:0}}.delivery-header__text p{font-weight:400}@media only screen and (max-width: 75em){.delivery-header__text p{width:90%;margin-top:2rem !important}}.delivery-header__safety-list{margin-bottom:5rem;display:-webkit-box;display:-ms-flexbox;display:flex}@media only screen and (max-width: 75em){.delivery-header__safety-list{margin-bottom:0;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}}.delivery-header__safety-item{list-style:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media only screen and (max-width: 75em){.delivery-header__safety-item{margin-bottom:3rem;-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}}.delivery-header__safety-item:not(:last-child){margin-right:3rem}@media only screen and (max-width: 56.25em){.delivery-header__safety-item:not(:last-child){margin-right:0}}@media only screen and (max-width: 37.5em){.delivery-header__safety-item:not(:last-child){margin-right:3rem}}@media only screen and (max-width: 68.0625em){.delivery-header__safety-item:nth-child(3){margin-right:0rem}}@media only screen and (max-width: 37.5em){.delivery-header__safety-item:nth-child(3){margin-right:3rem}}.delivery-header__safety-icon{height:10rem;width:10rem;margin-bottom:2rem}.delivery-header__safety-text{font-size:2rem;font-weight:600}.delivery-header__img{background-image:url(../img/delivery.jpg);background-size:cover;background-position:bottom;-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%}@media only screen and (max-width: 37.5em){.delivery-header__img{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;background-position:center;height:50vh;-webkit-box-flex:initial;-ms-flex:initial;flex:initial}}.header{color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.header__banner{padding:5rem 0;padding-left:15rem;background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url(../img/kombucha-3.jpg);background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../img/kombucha-3.jpg);background-size:cover;background-position:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}@media only screen and (max-width: 75em){.header__banner{padding-left:10rem}}@media only screen and (max-width: 56.25em){.header__banner{padding-left:5rem}}@media only screen and (max-width: 37.5em){.header__banner{padding-left:3rem}}.header__banner h1{width:50%;margin-bottom:2rem}@media only screen and (max-width: 56.25em){.header__banner h1{width:80%}}@media only screen and (max-width: 30em){.header__banner h1{font-size:7rem}}.header__banner p{width:40%;margin-bottom:4rem}@media only screen and (max-width: 56.25em){.header__banner p{width:60%}}@media only screen and (max-width: 30em){.header__banner p{font-size:4rem;width:80%}}.header__list{margin-bottom:4rem;display:-webkit-box;display:-ms-flexbox;display:flex}@media only screen and (max-width: 30em){.header__list{-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:1rem}}.header__item{font-size:1.8rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media only screen and (max-width: 30em){.header__item{margin-bottom:3rem}}.header__item:not(:last-child){margin-right:4rem}.header__circle{height:13rem;width:13rem;border-radius:50%;background-color:#fff;border:0.2rem solid #000;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.header__circle-svg{height:6rem;width:6rem;margin-bottom:.5rem}.header__circle-text{color:#000;font-size:1.6rem}@media only screen and (max-width: 30em){.header a{-ms-flex-item-align:center;align-self:center}}.section-mission{padding:8rem 0;color:#435956;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media only screen and (max-width: 75em){.section-mission{padding:5rem 0}}.section-mission h2{margin-bottom:2rem}.section-mission p{text-transform:uppercase;text-align:center;width:50%}@media only screen and (max-width: 56.25em){.section-mission p{width:80%}}.section-product{padding:10rem 0;background-color:#F0BA70;color:#435956;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media only screen and (max-width: 75em){.section-product{padding:8rem 0}}@media only screen and (max-width: 37.5em){.section-product h2{padding:0 2rem;text-align:center}}.section-product__box{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:10rem}@media only screen and (max-width: 75em){.section-product__box{margin-top:4rem}}@media only screen and (max-width: 37.5em){.section-product__box{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}.section-product__container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-flex:1;-ms-flex:1;flex:1}.section-product__container:not(:last-child){margin-right:5rem}@media only screen and (max-width: 75em){.section-product__container:not(:last-child){margin-right:0rem}}@media only screen and (max-width: 37.5em){.section-product__container:not(:last-child){margin-bottom:5rem}}.section-product__figure{height:50rem}.section-product__img{height:100%;margin-bottom:2rem}.section-product__heading{font-size:3rem;margin-bottom:1rem;color:#402E32;text-align:center}@media only screen and (max-width: 75em){.section-product__heading{width:50%}}@media only screen and (max-width: 56.25em){.section-product__heading{width:100%}}@media only screen and (max-width: 37.5em){.section-product__heading{font-size:4rem}}.section-product__text{text-align:center;width:70%;font-size:2rem;color:#005B4A}@media only screen and (max-width: 56.25em){.section-product__text{width:100%}}@media only screen and (max-width: 37.5em){.section-product__text{font-size:3rem;padding:0 4rem}}.section-reason{display:-webkit-box;display:-ms-flexbox;display:flex;padding:8rem 0}@media only screen and (max-width: 37.5em){.section-reason{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:6rem 0}}.section-reason__box{height:auto;width:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.section-reason__box--1{margin-left:3rem;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;background-image:url(../img/people-drinking.jpg);background-size:cover;background-position:center;height:50rem}@media only screen and (max-width: 56.25em){.section-reason__box--1{width:80%;margin-right:0}}@media only screen and (max-width: 37.5em){.section-reason__box--1{margin-bottom:3rem}}@media only screen and (max-width: 30em){.section-reason__box--1{background-position:left}}.section-reason__box--2{margin-left:3rem;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@media only screen and (max-width: 37.5em){.section-reason__box--2{margin-left:0;width:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center}}.section-reason__box--2>*:not(:last-child){margin-bottom:2rem}.section-reason__box--2 p{width:70%;font-size:2rem;font-weight:400}@media only screen and (max-width: 56.25em){.section-reason__box--2 p{width:95%}}@media only screen and (max-width: 37.5em){.section-reason__box--2 p{width:80%;text-align:center;font-size:3rem}}@media only screen and (max-width: 30em){.section-reason__box--2 p{font-size:2.5rem}}.section-reason__img{width:80%}@media only screen and (max-width: 56.25em){.section-reason__img{width:95%;height:auto}}.shop-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.shop-box{display:-webkit-box;display:-ms-flexbox;display:flex}@media only screen and (max-width: 56.25em){.shop-box{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}.shop-box__img{background-image:url(../img/kombucha-4.jpg);background-size:cover;background-position:center;-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%}@media only screen and (max-width: 56.25em){.shop-box__img{-webkit-box-flex:initial;-ms-flex:initial;flex:initial;height:65vh}}.shop-box__buy{-webkit-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:#402E32}@media only screen and (max-width: 75em){.shop-box__buy h1{text-align:center;margin-bottom:2rem !important}}@media only screen and (max-width: 56.25em){.shop-box__buy h1{margin-top:2rem}}.shop-box__flavors{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.shop-box__flavors-box{padding:2rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-radius:.5rem}@media only screen and (max-width: 75em){.shop-box__flavors-box{margin-bottom:2rem}}.shop-box__flavors-box:not(:last-child){margin-right:5rem}.shop-box__flavors-box:hover{background-color:rgba(67,89,86,0.2)}.shop-box__flavors-icons{height:10rem;width:10rem;margin-bottom:2rem}.shop-box__flavors-mix{display:-webkit-box;display:-ms-flexbox;display:flex}.shop-box__flavors-text{font-size:2rem}.shop-box__flavors-amount{margin-top:1rem;font-size:2rem}.shop-box__ingredients{margin:3rem 0 5rem 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media only screen and (max-width: 75em){.shop-box__ingredients{margin-top:0}}.shop-box__ingredients-heading{font-size:4rem;font-weight:400}.shop-box__ingredients-text{font-size:3rem;-ms-flex-item-align:center;align-self:center;text-align:center;padding:0 1rem}.shop-box__pricing-list{list-style:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap}.shop-box__pricing-item{font-size:3rem;background-color:#435956;color:#F0BA70;padding:2rem;border-radius:.5rem;text-align:center;margin-bottom:3rem}.shop-box__pricing-item:not(:last-child){margin-right:3rem}.shop-box__contact{margin-bottom:2rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.shop-box__contact-text{font-size:3.5rem;text-transform:uppercase;text-align:center;border-bottom:2px solid currentColor;margin-bottom:2rem}.shop-box__contact-list{list-style:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.shop-box__contact-item{font-size:2.5rem;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.shop-box__contact-item:not(:last-child){margin-right:1rem;margin-bottom:2rem}@media only screen and (max-width: 37.5em){.shop-box__contact-item:not(:last-child){margin-right:0}}.shop-box__contact span{-webkit-mask-size:cover;mask-size:cover;background-color:#435956;height:3rem;width:3rem;margin-right:2rem}.shop-box__contact-icon--1{-webkit-mask:url(../img/phone.svg);mask:url(../img/phone.svg)}.shop-box__contact-icon--2{-webkit-mask:url(../img/instagram.svg);mask:url(../img/instagram.svg)}.shop-box__contact-icon--3{-webkit-mask:url(../img/mail.svg);mask:url(../img/mail.svg)}.shop-box__contact-link:visited,.shop-box__contact-link:link{text-decoration:none;color:currentColor;background-color:rgba(67,89,86,0.4);padding:1rem;border-radius:.5rem;-webkit-transition:all .3s;transition:all .3s}.shop-box__contact-link:active,.shop-box__contact-link:hover{background-color:#435956;color:#F0BA70}.what-is-kombucha-header{height:85vh;color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}@media only screen and (max-width: 37.5em){.what-is-kombucha-header{height:initial}}.what-is-kombucha-header__banner{padding:5rem 0;background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))),url(../img/market.jpg);background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../img/market.jpg);background-size:cover;background-position:bottom;-webkit-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.what-is-kombucha-header h1{font-weight:700;text-align:center}@media only screen and (max-width: 30em){.what-is-kombucha-header h1{font-size:6rem}}.what-is-kombucha-header p{margin-top:3rem;line-height:2;font-weight:500;text-align:center;width:50%}@media only screen and (max-width: 75em){.what-is-kombucha-header p{width:80%}}@media only screen and (max-width: 56.25em){.what-is-kombucha-header p{font-size:3rem}}.what-is-kombucha-ingredients{padding:10rem 0;color:#435956;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media only screen and (max-width: 56.25em){.what-is-kombucha-ingredients{padding:5rem 0}}@media only screen and (max-width: 30em){.what-is-kombucha-ingredients h2{text-align:center}}.what-is-kombucha-ingredients__paragraph{margin-top:1.5rem;width:60%;text-align:center;line-height:2}@media only screen and (max-width: 56.25em){.what-is-kombucha-ingredients__paragraph{width:80%}}.what-is-kombucha-ingredients__list{margin-top:5rem;display:-webkit-box;display:-ms-flexbox;display:flex}@media only screen and (max-width: 56.25em){.what-is-kombucha-ingredients__list{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}}@media only screen and (max-width: 37.5em){.what-is-kombucha-ingredients__list{padding:0 5rem}}.what-is-kombucha-ingredients__item{list-style:none;margin-bottom:5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.what-is-kombucha-ingredients__item:not(:last-child){margin-right:5rem}.what-is-kombucha-ingredients__item span{-webkit-mask-size:cover;mask-size:cover;background-color:#609B9A;height:13rem;width:13rem}@media only screen and (max-width: 37.5em){.what-is-kombucha-ingredients__item span{height:10rem;width:10rem}}.what-is-kombucha-ingredients__icon--sugar{-webkit-mask:url(../img/sugar.svg);mask:url(../img/sugar.svg)}.what-is-kombucha-ingredients__icon--water{-webkit-mask:url(../img/water.svg);mask:url(../img/water.svg)}.what-is-kombucha-ingredients__icon--tea{-webkit-mask:url(../img/tea.svg);mask:url(../img/tea.svg)}.what-is-kombucha-ingredients__icon--fruits{-webkit-mask:url(../img/fruits.svg);mask:url(../img/fruits.svg)}.what-is-kombucha-ingredients__icon--scoby{-webkit-mask:url(../img/scoby.svg);mask:url(../img/scoby.svg)}.what-is-kombucha-ingredients__text{font-size:3.5rem;margin-top:3rem}.what-is-kombucha-benefits{background-color:#435956;color:#F0BA70;display:-webkit-box;display:-ms-flexbox;display:flex}@media only screen and (max-width: 56.25em){.what-is-kombucha-benefits{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}.what-is-kombucha-benefits__box{padding:5rem 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.what-is-kombucha-benefits__box h2{width:70%;text-align:center}.what-is-kombucha-benefits__box p{margin-top:5rem;width:80%;line-height:2}.what-is-kombucha-benefits__img{background-image:url(../img/people-happy.jpg);background-size:cover;background-position:center;-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%}@media only screen and (max-width: 56.25em){.what-is-kombucha-benefits__img{width:100vw;height:100vh;-webkit-box-flex:initial;-ms-flex:initial;flex:initial}}@media only screen and (max-width: 37.5em){.what-is-kombucha-benefits__img{height:80vh}}.what-is-kombucha-process{background-color:#609B9A;color:#402E32;display:-webkit-box;display:-ms-flexbox;display:flex}@media only screen and (max-width: 56.25em){.what-is-kombucha-process{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}.what-is-kombucha-process__box{padding:15rem 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@media only screen and (max-width: 56.25em){.what-is-kombucha-process__box{padding:6rem 0}}.what-is-kombucha-process__box h2{width:70%;text-align:center}@media only screen and (max-width: 30em){.what-is-kombucha-process__box h2{width:100%;font-size:4rem}}.what-is-kombucha-process__box p{margin-top:5rem;width:80%;line-height:2}.what-is-kombucha-process__img{background-image:url(../img/kombucha-5.jpg);background-size:cover;background-position:center;-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%}@media only screen and (max-width: 56.25em){.what-is-kombucha-process__img{width:100vw;height:100vh;-webkit-box-flex:initial;-ms-flex:initial;flex:initial;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}@media only screen and (max-width: 37.5em){.what-is-kombucha-process__img{height:80vh}}.what-is-kombucha-promo{padding:2rem 5rem 5rem 5rem;text-transform:uppercase;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.what-is-kombucha-promo__logo{height:25rem;width:30rem;margin-bottom:3rem}.what-is-kombucha-promo__text{text-align:center;font-size:5rem;width:50%;margin-bottom:5rem}@media only screen and (max-width: 75em){.what-is-kombucha-promo__text{width:100%}}.what-is-kombucha-promo__text span{color:#F0707B;font-weight:700}
+/**************************
+MEDIA QUERY MANAGER
+0 - 600px:      Phone                   phone
+600 - 900px:    Tablet Portrait         tab-port
+900 - 1200px:   Tablet Landscape        tab-land
+[1200 - 1800]:  Normal Styles Apply
+1800px + :      Big Desktop             big-desk
+
+ORDER: Base + typography > general layout + grid > payge layout > components
+
+1em = 16px
+***************************/
+* {
+  padding: 0;
+  margin: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 37.5em) {
+    html {
+      font-size: 43.75%; } }
+  @media only screen and (max-width: 30em) {
+    html {
+      font-size: 40.625%; } }
+
+body {
+  background-color: #fff; }
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.15; }
+
+.paragraph {
+  font-size: 2.5rem;
+  font-weight: 700; }
+
+.heading-primary {
+  font-size: 8rem;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+.heading-secondary {
+  font-size: 5rem;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.heading-tertiary {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.heading-quaternary {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.u-margin-top-small {
+  margin-top: 3rem !important; }
+
+.u-margin-top-big {
+  margin-top: 10rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 5rem !important; }
+
+.selected {
+  background-color: rgba(67, 89, 86, 0.5) !important; }
+
+.btn:link, .btn:visited, .btn__inverted:link, .btn__inverted:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+  background-color: #F0BA70;
+  color: #435956;
+  border-radius: .2rem;
+  transition: all .3s;
+  text-align: center; }
+  @media only screen and (max-width: 37.5em) {
+    .btn:link, .btn:visited, .btn__inverted:link, .btn__inverted:visited {
+      font-size: 3rem;
+      padding: 2.5rem 3rem; } }
+
+.btn:active, .btn:hover {
+  background-color: #435956;
+  color: #F0BA70; }
+
+.btn__inverted:link, .btn__inverted:visited {
+  background-color: #435956;
+  color: #F0BA70;
+  border: 2px solid transparent; }
+
+.btn__inverted:active, .btn__inverted:hover {
+  background-color: #F0BA70;
+  color: #435956;
+  border: 2px solid #435956; }
+
+.instagram {
+  display: flex;
+  flex-direction: column; }
+  .instagram__container {
+    display: flex; }
+  .instagram__img {
+    flex: 1;
+    height: 45vh;
+    background-size: cover;
+    background-position: center; }
+    .instagram__img--1 {
+      background-image: url(../img/insta-1.jpg); }
+    .instagram__img--2 {
+      background-image: url(../img/insta-2.jpg); }
+    .instagram__img--3 {
+      background-image: url(../img/insta-3.jpg); }
+      @media only screen and (max-width: 30em) {
+        .instagram__img--3 {
+          display: none; } }
+    .instagram__img--4 {
+      background-image: url(../img/insta-4.jpg); }
+      @media only screen and (max-width: 37.5em) {
+        .instagram__img--4 {
+          display: none; } }
+  .instagram__tags {
+    padding: 2rem 0;
+    background-color: #435956;
+    display: flex;
+    justify-content: center; }
+    @media only screen and (max-width: 30em) {
+      .instagram__tags {
+        flex-direction: column;
+        align-items: center; } }
+    .instagram__tags-text {
+      font-size: 3rem;
+      color: #F0BA70; }
+      .instagram__tags-text:not(:last-child) {
+        margin-right: 5rem; }
+        @media only screen and (max-width: 30em) {
+          .instagram__tags-text:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 2rem; } }
+
+.footer {
+  padding: 10rem 0;
+  background-color: #1D1D1E;
+  color: #F0BA70;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  @media only screen and (max-width: 37.5em) {
+    .footer {
+      flex-direction: column;
+      padding: 5rem 0; } }
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; }
+    @media only screen and (max-width: 37.5em) {
+      .footer__info {
+        order: 2; } }
+    .footer__info-box {
+      display: flex; }
+      .footer__info-box--1 {
+        margin-bottom: 2rem; }
+    .footer__info-icon {
+      height: 2rem;
+      width: 2rem;
+      margin-right: 2rem; }
+      @media only screen and (max-width: 37.5em) {
+        .footer__info-icon {
+          height: 2.5rem;
+          width: 2.5rem; } }
+    .footer__info-text {
+      font-size: 1.8rem; }
+      @media only screen and (max-width: 37.5em) {
+        .footer__info-text {
+          font-size: 2.5rem; } }
+  .footer__social {
+    margin-top: 3.5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .footer__social {
+        order: 3;
+        margin-bottom: 5rem;
+        align-self: center; } }
+    .footer__social-list {
+      display: flex; }
+    .footer__social-item {
+      list-style: none;
+      transition: all .3s; }
+      .footer__social-item:not(:last-child) {
+        margin-right: 2rem; }
+      .footer__social-item:hover {
+        transform: scale(1.8); }
+    .footer__social-link {
+      text-decoration: none; }
+    .footer__social-icon {
+      height: 2rem;
+      width: 2rem; }
+      @media only screen and (max-width: 37.5em) {
+        .footer__social-icon {
+          height: 3rem;
+          width: 3rem; } }
+  .footer__img {
+    height: 20rem;
+    width: 23rem;
+    align-self: center; }
+    @media only screen and (max-width: 37.5em) {
+      .footer__img {
+        order: 1;
+        margin-bottom: 5rem; } }
+  .footer__subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; }
+    @media only screen and (max-width: 37.5em) {
+      .footer__subscribe {
+        order: 4; } }
+    @media only screen and (max-width: 37.5em) {
+      .footer__subscribe h4 {
+        font-size: 2.5rem;
+        text-align: center; } }
+    .footer__subscribe-text {
+      font-size: 1.5rem; }
+      @media only screen and (max-width: 37.5em) {
+        .footer__subscribe-text {
+          font-size: 2rem; } }
+      .footer__subscribe-text:first-of-type {
+        margin-top: 2rem; }
+      .footer__subscribe-text:not(:last-of-type) {
+        margin-bottom: .5rem; }
+    .footer__subscribe-form {
+      margin-top: 2rem;
+      display: flex; }
+      @media only screen and (max-width: 37.5em) {
+        .footer__subscribe-form {
+          flex-direction: column;
+          margin-top: 3rem; } }
+    .footer__subscribe-input {
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #435956;
+      color: #F0707B;
+      font-size: 1.6rem;
+      font-style: italic; }
+      @media only screen and (max-width: 37.5em) {
+        .footer__subscribe-input {
+          font-size: 2.5rem;
+          margin-bottom: 2rem;
+          text-align: center; } }
+      .footer__subscribe-input:focus {
+        outline: none; }
+    .footer__subscribe-submit {
+      background-color: transparent;
+      color: #F0707B;
+      border: 2px solid #435956;
+      padding: 1rem 1.5rem; }
+      @media only screen and (max-width: 37.5em) {
+        .footer__subscribe-submit {
+          font-size: 2.5rem; } }
+
+.nav {
+  background-color: #fff;
+  padding-right: 5rem;
+  display: flex;
+  align-items: center; }
+  @media only screen and (max-width: 56.25em) {
+    .nav {
+      display: none; } }
+  .nav__img {
+    height: 11rem;
+    width: 14rem; }
+  .nav__list {
+    display: flex;
+    margin-left: 5rem; }
+  .nav__item {
+    list-style: none; }
+    .nav__item:not(:last-child) {
+      margin-right: 1rem; }
+  .nav__link:link, .nav__link:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #435956;
+    padding: 1.5rem 2rem;
+    transition: all .3s;
+    border-radius: .2rem; }
+  .nav__link--1:link, .nav__link--1:visited {
+    color: #F0707B;
+    font-weight: 500; }
+  .nav__link:hover, .nav__link:active {
+    color: #609B9A;
+    background-color: #C7D790; }
+  .nav__cart {
+    margin-left: auto; }
+    .nav__cart-icon {
+      height: 5rem;
+      width: 5rem;
+      display: none; }
+  .nav-mobile {
+    padding: 4rem 0 1rem 1rem;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateY(-30rem);
+    transition: all .5s;
+    display: flex;
+    visibility: hidden;
+    opacity: 0; }
+    .nav-mobile__menu {
+      width: 86%;
+      display: flex;
+      justify-content: space-between; }
+      @media only screen and (max-width: 37.5em) {
+        .nav-mobile__menu {
+          width: 80%; } }
+      .nav-mobile__menu-img {
+        width: 18rem;
+        margin-top: -2rem; }
+      .nav-mobile__menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+      .nav-mobile__menu-item {
+        list-style: none;
+        margin-bottom: 4rem;
+        text-align: center; }
+        .nav-mobile__menu-item--link {
+          line-height: 1.7; }
+      .nav-mobile__menu-link:link, .nav-mobile__menu-link:visited {
+        text-decoration: none;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #402E32;
+        border-bottom: 2px solid #435956;
+        padding-bottom: .5rem; }
+      .nav-mobile__menu-icon {
+        height: 7rem;
+        width: 7rem;
+        display: none; }
+  .nav__checkbox {
+    display: none; }
+  .nav__circle {
+    height: 8rem;
+    width: 8rem;
+    background-color: #435956;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    margin: 1.5rem 2rem 0 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    @media only screen and (max-width: 56.25em) {
+      .nav__circle {
+        display: flex; } }
+    .nav__circle-menu {
+      height: .5rem;
+      width: 4rem;
+      background-color: #F0BA70;
+      border-radius: 4rem;
+      transition: all .3s; }
+      .nav__circle-menu:not(:last-child) {
+        margin-bottom: 1rem; }
+  .nav__checkbox:checked + .nav__circle .nav__circle-menu--1 {
+    transform: translateY(1.5rem) rotate(135deg); }
+  .nav__checkbox:checked + .nav__circle .nav__circle-menu--2 {
+    opacity: 0; }
+  .nav__checkbox:checked + .nav__circle .nav__circle-menu--3 {
+    transform: translateY(-1.5rem) rotate(-135deg); }
+  .nav__checkbox:checked ~ .nav-mobile {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0); }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 999; }
+
+.section-about {
+  display: flex;
+  flex-direction: column; }
+  .section-about__img {
+    background-image: url(../img/coco-and-romeo.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 70vh;
+    width: 100vw; }
+  .section-about__info {
+    padding: 5rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .section-about__info h1 {
+      margin-bottom: 2rem; }
+    .section-about__info p {
+      line-height: 1.7;
+      font-size: 3rem;
+      margin-bottom: 5rem; }
+
+.section-contact {
+  height: 100vh;
+  background-image: url(../img/insta-5.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end; }
+  .section-contact__box {
+    background-color: #fff;
+    padding: 7rem 5rem; }
+    @media only screen and (max-width: 75em) {
+      .section-contact__box {
+        padding: 5rem 3rem; } }
+    .section-contact__box h1 {
+      margin-bottom: 8rem; }
+  .section-contact__info {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem; }
+    .section-contact__info-list {
+      list-style: none;
+      margin-bottom: 5rem; }
+    .section-contact__info-item {
+      display: flex;
+      align-items: center; }
+      .section-contact__info-item:not(:last-child) {
+        margin-bottom: 3rem; }
+    .section-contact__info span {
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: #435956;
+      height: 5rem;
+      width: 5rem;
+      margin-right: 2rem; }
+    .section-contact__info-icon--1 {
+      -webkit-mask: url(../img/phone.svg);
+      mask: url(../img/phone.svg); }
+    .section-contact__info-icon--2 {
+      -webkit-mask: url(../img/instagram.svg);
+      mask: url(../img/instagram.svg); }
+    .section-contact__info-icon--3 {
+      -webkit-mask: url(../img/mail.svg);
+      mask: url(../img/mail.svg); }
+    .section-contact__info-link:visited, .section-contact__info-link:link {
+      text-decoration: none;
+      color: #F0BA70;
+      background-color: #435956;
+      padding: 1rem;
+      border-radius: .5rem; }
+
+.delivery-header {
+  height: 100vh;
+  color: #435956;
+  display: flex;
+  flex-direction: column; }
+  @media only screen and (max-width: 37.5em) {
+    .delivery-header {
+      height: initial; } }
+  .delivery-header__box {
+    display: flex;
+    flex: 1;
+    background-color: #F0BA70; }
+    @media only screen and (max-width: 37.5em) {
+      .delivery-header__box {
+        flex-direction: column; } }
+  .delivery-header__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    @media only screen and (max-width: 37.5em) {
+      .delivery-header__text {
+        order: 2; } }
+    @media only screen and (max-width: 75em) {
+      .delivery-header__text h1 {
+        margin-top: 4rem !important; } }
+    @media only screen and (max-width: 56.25em) {
+      .delivery-header__text h1 {
+        margin-top: 0;
+        margin-bottom: 3rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .delivery-header__text h1 {
+        margin-bottom: 0; } }
+    .delivery-header__text p {
+      font-weight: 400; }
+      @media only screen and (max-width: 75em) {
+        .delivery-header__text p {
+          width: 90%;
+          margin-top: 2rem !important; } }
+  .delivery-header__safety-list {
+    margin-bottom: 5rem;
+    display: flex; }
+    @media only screen and (max-width: 75em) {
+      .delivery-header__safety-list {
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        justify-content: center; } }
+  .delivery-header__safety-item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    @media only screen and (max-width: 75em) {
+      .delivery-header__safety-item {
+        margin-bottom: 3rem;
+        flex: 1 0 auto; } }
+    .delivery-header__safety-item:not(:last-child) {
+      margin-right: 3rem; }
+      @media only screen and (max-width: 56.25em) {
+        .delivery-header__safety-item:not(:last-child) {
+          margin-right: 0; } }
+      @media only screen and (max-width: 37.5em) {
+        .delivery-header__safety-item:not(:last-child) {
+          margin-right: 3rem; } }
+    @media only screen and (max-width: 68.0625em) {
+      .delivery-header__safety-item:nth-child(3) {
+        margin-right: 0rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .delivery-header__safety-item:nth-child(3) {
+        margin-right: 3rem; } }
+  .delivery-header__safety-icon {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 2rem; }
+  .delivery-header__safety-text {
+    font-size: 2rem;
+    font-weight: 600; }
+  .delivery-header__img {
+    background-image: url(../img/delivery.jpg);
+    background-size: cover;
+    background-position: bottom;
+    flex: 0 0 50%; }
+    @media only screen and (max-width: 37.5em) {
+      .delivery-header__img {
+        order: 1;
+        background-position: center;
+        height: 50vh;
+        flex: initial; } }
+
+.header {
+  color: #fff;
+  display: flex;
+  flex-direction: column; }
+  .header__banner {
+    padding: 5rem 0;
+    padding-left: 15rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/kombucha-3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; }
+    @media only screen and (max-width: 75em) {
+      .header__banner {
+        padding-left: 10rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .header__banner {
+        padding-left: 5rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .header__banner {
+        padding-left: 3rem; } }
+    .header__banner h1 {
+      width: 50%;
+      margin-bottom: 2rem; }
+      @media only screen and (max-width: 56.25em) {
+        .header__banner h1 {
+          width: 80%; } }
+      @media only screen and (max-width: 30em) {
+        .header__banner h1 {
+          font-size: 7rem; } }
+    .header__banner p {
+      width: 40%;
+      margin-bottom: 4rem; }
+      @media only screen and (max-width: 56.25em) {
+        .header__banner p {
+          width: 60%; } }
+      @media only screen and (max-width: 30em) {
+        .header__banner p {
+          font-size: 4rem;
+          width: 80%; } }
+  .header__list {
+    margin-bottom: 4rem;
+    display: flex; }
+    @media only screen and (max-width: 30em) {
+      .header__list {
+        flex-wrap: wrap;
+        margin-bottom: 1rem; } }
+  .header__item {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    @media only screen and (max-width: 30em) {
+      .header__item {
+        margin-bottom: 3rem; } }
+    .header__item:not(:last-child) {
+      margin-right: 4rem; }
+  .header__circle {
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 0.2rem solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .header__circle-svg {
+      height: 6rem;
+      width: 6rem;
+      margin-bottom: .5rem; }
+    .header__circle-text {
+      color: #000;
+      font-size: 1.6rem; }
+  @media only screen and (max-width: 30em) {
+    .header a {
+      align-self: center; } }
+
+.section-mission {
+  padding: 8rem 0;
+  color: #435956;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media only screen and (max-width: 75em) {
+    .section-mission {
+      padding: 5rem 0; } }
+  .section-mission h2 {
+    margin-bottom: 2rem; }
+  .section-mission p {
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%; }
+    @media only screen and (max-width: 56.25em) {
+      .section-mission p {
+        width: 80%; } }
+
+.section-product {
+  padding: 10rem 0;
+  background-color: #F0BA70;
+  color: #435956;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media only screen and (max-width: 75em) {
+    .section-product {
+      padding: 8rem 0; } }
+  @media only screen and (max-width: 37.5em) {
+    .section-product h2 {
+      padding: 0 2rem;
+      text-align: center; } }
+  .section-product__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem; }
+    @media only screen and (max-width: 75em) {
+      .section-product__box {
+        margin-top: 4rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .section-product__box {
+        flex-direction: column; } }
+  .section-product__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1; }
+    .section-product__container:not(:last-child) {
+      margin-right: 5rem; }
+      @media only screen and (max-width: 75em) {
+        .section-product__container:not(:last-child) {
+          margin-right: 0rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .section-product__container:not(:last-child) {
+          margin-bottom: 5rem; } }
+  .section-product__figure {
+    height: 50rem; }
+  .section-product__img {
+    height: 100%;
+    margin-bottom: 2rem; }
+  .section-product__heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #402E32;
+    text-align: center; }
+    @media only screen and (max-width: 75em) {
+      .section-product__heading {
+        width: 50%; } }
+    @media only screen and (max-width: 56.25em) {
+      .section-product__heading {
+        width: 100%; } }
+    @media only screen and (max-width: 37.5em) {
+      .section-product__heading {
+        font-size: 4rem; } }
+  .section-product__text {
+    text-align: center;
+    width: 70%;
+    font-size: 2rem;
+    color: #005B4A; }
+    @media only screen and (max-width: 56.25em) {
+      .section-product__text {
+        width: 100%; } }
+    @media only screen and (max-width: 37.5em) {
+      .section-product__text {
+        font-size: 3rem;
+        padding: 0 4rem; } }
+
+.section-reason {
+  display: flex;
+  padding: 8rem 0; }
+  @media only screen and (max-width: 37.5em) {
+    .section-reason {
+      flex-direction: column;
+      align-items: center;
+      padding: 6rem 0; } }
+  .section-reason__box {
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center; }
+    .section-reason__box--1 {
+      margin-left: 3rem;
+      justify-content: flex-end;
+      background-image: url(../img/people-drinking.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 50rem; }
+      @media only screen and (max-width: 56.25em) {
+        .section-reason__box--1 {
+          width: 80%;
+          margin-right: 0; } }
+      @media only screen and (max-width: 37.5em) {
+        .section-reason__box--1 {
+          margin-bottom: 3rem; } }
+      @media only screen and (max-width: 30em) {
+        .section-reason__box--1 {
+          background-position: left; } }
+    .section-reason__box--2 {
+      margin-left: 3rem;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center; }
+      @media only screen and (max-width: 37.5em) {
+        .section-reason__box--2 {
+          margin-left: 0;
+          width: 100%;
+          align-items: center; } }
+      .section-reason__box--2 > *:not(:last-child) {
+        margin-bottom: 2rem; }
+      .section-reason__box--2 p {
+        width: 70%;
+        font-size: 2rem;
+        font-weight: 400; }
+        @media only screen and (max-width: 56.25em) {
+          .section-reason__box--2 p {
+            width: 95%; } }
+        @media only screen and (max-width: 37.5em) {
+          .section-reason__box--2 p {
+            width: 80%;
+            text-align: center;
+            font-size: 3rem; } }
+        @media only screen and (max-width: 30em) {
+          .section-reason__box--2 p {
+            font-size: 2.5rem; } }
+  .section-reason__img {
+    width: 80%; }
+    @media only screen and (max-width: 56.25em) {
+      .section-reason__img {
+        width: 95%;
+        height: auto; } }
+
+.shop-header {
+  display: flex;
+  flex-direction: column; }
+
+.shop-box {
+  display: flex; }
+  @media only screen and (max-width: 56.25em) {
+    .shop-box {
+      flex-direction: column; } }
+  .shop-box__img {
+    background-image: url(../img/kombucha-4.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 0 0 50%; }
+    @media only screen and (max-width: 56.25em) {
+      .shop-box__img {
+        flex: initial;
+        height: 65vh; } }
+  .shop-box__buy {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #402E32; }
+    .shop-box__buy h1 {
+      text-align: center; }
+      @media only screen and (max-width: 75em) {
+        .shop-box__buy h1 {
+          margin-bottom: 2rem !important; } }
+      @media only screen and (max-width: 56.25em) {
+        .shop-box__buy h1 {
+          margin-top: 2rem; } }
+  .shop-box__flavors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .shop-box__flavors-box {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: .5rem; }
+      @media only screen and (max-width: 75em) {
+        .shop-box__flavors-box {
+          margin-bottom: 2rem; } }
+      .shop-box__flavors-box:not(:last-child) {
+        margin-right: 5rem; }
+      .shop-box__flavors-box:hover {
+        background-color: rgba(67, 89, 86, 0.2); }
+    .shop-box__flavors-icons {
+      height: 10rem;
+      width: 10rem;
+      margin-bottom: 2rem; }
+    .shop-box__flavors-mix {
+      display: flex; }
+    .shop-box__flavors-text {
+      font-size: 2rem; }
+    .shop-box__flavors-amount {
+      margin-top: 1rem;
+      font-size: 2rem; }
+  .shop-box__ingredients {
+    margin: 3rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    @media only screen and (max-width: 75em) {
+      .shop-box__ingredients {
+        margin-top: 0; } }
+    .shop-box__ingredients-heading {
+      font-size: 4rem;
+      font-weight: 400; }
+    .shop-box__ingredients-text {
+      font-size: 3rem;
+      align-self: center;
+      text-align: center;
+      padding: 0 1rem; }
+  .shop-box__pricing-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .shop-box__pricing-item {
+    font-size: 3rem;
+    background-color: #435956;
+    color: #F0BA70;
+    padding: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    margin-bottom: 3rem; }
+    .shop-box__pricing-item:not(:last-child) {
+      margin-right: 3rem; }
+  .shop-box__contact {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .shop-box__contact-text {
+      font-size: 3.5rem;
+      text-transform: uppercase;
+      text-align: center;
+      border-bottom: 2px solid currentColor;
+      margin-bottom: 3rem; }
+    .shop-box__contact-list {
+      list-style: none;
+      display: flex; }
+      @media only screen and (max-width: 75em) {
+        .shop-box__contact-list {
+          flex-direction: column; } }
+    .shop-box__contact-item {
+      font-size: 2.5rem;
+      text-align: center;
+      display: flex;
+      align-items: center; }
+      .shop-box__contact-item:not(:last-child) {
+        margin-right: 3rem; }
+        @media only screen and (max-width: 75em) {
+          .shop-box__contact-item:not(:last-child) {
+            margin-bottom: 2rem;
+            margin-right: 0; } }
+    .shop-box__contact span {
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: #435956;
+      height: 5rem;
+      width: 5rem;
+      margin-right: 2rem; }
+    .shop-box__contact-icon--1 {
+      -webkit-mask: url(../img/whatsapp.svg);
+      mask: url(../img/whatsapp.svg); }
+    .shop-box__contact-icon--2 {
+      -webkit-mask: url(../img/instagram.svg);
+      mask: url(../img/instagram.svg); }
+    .shop-box__contact-icon--3 {
+      -webkit-mask: url(../img/mail.svg);
+      mask: url(../img/mail.svg); }
+    .shop-box__contact-link:visited, .shop-box__contact-link:link {
+      text-decoration: none;
+      color: currentColor;
+      background-color: rgba(67, 89, 86, 0.4);
+      padding: 1rem;
+      border-radius: .5rem;
+      box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.15);
+      transition: all .3s; }
+    .shop-box__contact-link:active, .shop-box__contact-link:hover {
+      background-color: #435956;
+      color: #F0BA70; }
+
+.what-is-kombucha-header {
+  height: 85vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column; }
+  @media only screen and (max-width: 37.5em) {
+    .what-is-kombucha-header {
+      height: initial; } }
+  .what-is-kombucha-header__banner {
+    padding: 5rem 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/market.jpg);
+    background-size: cover;
+    background-position: bottom;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .what-is-kombucha-header h1 {
+    font-weight: 700;
+    text-align: center; }
+    @media only screen and (max-width: 30em) {
+      .what-is-kombucha-header h1 {
+        font-size: 6rem; } }
+  .what-is-kombucha-header p {
+    margin-top: 3rem;
+    line-height: 2;
+    font-weight: 500;
+    text-align: center;
+    width: 50%; }
+    @media only screen and (max-width: 75em) {
+      .what-is-kombucha-header p {
+        width: 80%; } }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-header p {
+        font-size: 3rem; } }
+
+.what-is-kombucha-ingredients {
+  padding: 10rem 0;
+  color: #435956;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media only screen and (max-width: 56.25em) {
+    .what-is-kombucha-ingredients {
+      padding: 5rem 0; } }
+  @media only screen and (max-width: 30em) {
+    .what-is-kombucha-ingredients h2 {
+      text-align: center; } }
+  .what-is-kombucha-ingredients__paragraph {
+    margin-top: 1.5rem;
+    width: 60%;
+    text-align: center;
+    line-height: 2; }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-ingredients__paragraph {
+        width: 80%; } }
+  .what-is-kombucha-ingredients__list {
+    margin-top: 5rem;
+    display: flex; }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-ingredients__list {
+        flex-wrap: wrap;
+        justify-content: center; } }
+    @media only screen and (max-width: 37.5em) {
+      .what-is-kombucha-ingredients__list {
+        padding: 0 5rem; } }
+  .what-is-kombucha-ingredients__item {
+    list-style: none;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .what-is-kombucha-ingredients__item:not(:last-child) {
+      margin-right: 5rem; }
+    .what-is-kombucha-ingredients__item span {
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: #609B9A;
+      height: 13rem;
+      width: 13rem; }
+      @media only screen and (max-width: 37.5em) {
+        .what-is-kombucha-ingredients__item span {
+          height: 10rem;
+          width: 10rem; } }
+  .what-is-kombucha-ingredients__icon--sugar {
+    -webkit-mask: url(../img/sugar.svg);
+    mask: url(../img/sugar.svg); }
+  .what-is-kombucha-ingredients__icon--water {
+    -webkit-mask: url(../img/water.svg);
+    mask: url(../img/water.svg); }
+  .what-is-kombucha-ingredients__icon--tea {
+    -webkit-mask: url(../img/tea.svg);
+    mask: url(../img/tea.svg); }
+  .what-is-kombucha-ingredients__icon--fruits {
+    -webkit-mask: url(../img/fruits.svg);
+    mask: url(../img/fruits.svg); }
+  .what-is-kombucha-ingredients__icon--scoby {
+    -webkit-mask: url(../img/scoby.svg);
+    mask: url(../img/scoby.svg); }
+  .what-is-kombucha-ingredients__text {
+    font-size: 3.5rem;
+    margin-top: 3rem; }
+
+.what-is-kombucha-benefits {
+  background-color: #435956;
+  color: #F0BA70;
+  display: flex; }
+  @media only screen and (max-width: 56.25em) {
+    .what-is-kombucha-benefits {
+      flex-direction: column; } }
+  .what-is-kombucha-benefits__box {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .what-is-kombucha-benefits__box h2 {
+      width: 70%;
+      text-align: center; }
+    .what-is-kombucha-benefits__box p {
+      margin-top: 5rem;
+      width: 80%;
+      line-height: 2; }
+  .what-is-kombucha-benefits__img {
+    background-image: url(../img/people-happy.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 0 0 50%; }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-benefits__img {
+        width: 100vw;
+        height: 100vh;
+        flex: initial; } }
+    @media only screen and (max-width: 37.5em) {
+      .what-is-kombucha-benefits__img {
+        height: 80vh; } }
+
+.what-is-kombucha-process {
+  background-color: #609B9A;
+  color: #402E32;
+  display: flex; }
+  @media only screen and (max-width: 56.25em) {
+    .what-is-kombucha-process {
+      flex-direction: column; } }
+  .what-is-kombucha-process__box {
+    padding: 15rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-process__box {
+        padding: 6rem 0; } }
+    .what-is-kombucha-process__box h2 {
+      width: 70%;
+      text-align: center; }
+      @media only screen and (max-width: 30em) {
+        .what-is-kombucha-process__box h2 {
+          width: 100%;
+          font-size: 4rem; } }
+    .what-is-kombucha-process__box p {
+      margin-top: 5rem;
+      width: 80%;
+      line-height: 2; }
+  .what-is-kombucha-process__img {
+    background-image: url(../img/kombucha-5.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 0 0 50%; }
+    @media only screen and (max-width: 56.25em) {
+      .what-is-kombucha-process__img {
+        width: 100vw;
+        height: 100vh;
+        flex: initial;
+        order: 1; } }
+    @media only screen and (max-width: 37.5em) {
+      .what-is-kombucha-process__img {
+        height: 80vh; } }
+
+.what-is-kombucha-promo {
+  padding: 2rem 5rem 5rem 5rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .what-is-kombucha-promo__logo {
+    height: 25rem;
+    width: 30rem;
+    margin-bottom: 3rem; }
+  .what-is-kombucha-promo__text {
+    text-align: center;
+    font-size: 5rem;
+    width: 50%;
+    margin-bottom: 5rem; }
+    @media only screen and (max-width: 75em) {
+      .what-is-kombucha-promo__text {
+        width: 100%; } }
+    .what-is-kombucha-promo__text span {
+      color: #F0707B;
+      font-weight: 700; }
