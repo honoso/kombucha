@@ -77,7 +77,7 @@ var amount = {
     document.querySelector('.shop-box__flavors-icons--1').src = "../img/jamaica-color.svg";
 
     // Add ingredients
-    document.querySelector('.shop-box__ingredients-text').innerHTML = "te negro, azucar, agua, y jamaica";
+    document.querySelector('.shop-box__ingredients-text').innerHTML = "Té negro, azúcar de caña, agua, flor de Jamaica, canela, jengibre y cascara de piña";
 
     // Remove selected color
     document.querySelector('.shop-box__flavors-box--2').classList.remove("selected");
@@ -102,7 +102,7 @@ document.querySelector('.shop-box__flavors-box--2').addEventListener('click', fu
     document.querySelector('.shop-box__flavors-icons--2').src = "../img/chai-color.svg";
 
     // Add ingredients
-    document.querySelector('.shop-box__ingredients-text').innerHTML = "anis, canela, te negro, pimienta, jengibre, azucar y agua";
+    document.querySelector('.shop-box__ingredients-text').innerHTML = "Té negro, azúcar de caña, agua, jengibre, cardamomo, anís estrella, canela, pimienta, clavo de olor";
 
     // Remove selected background
     document.querySelector('.shop-box__flavors-box--1').classList.remove("selected");
@@ -128,7 +128,7 @@ document.querySelector('.shop-box__flavors-box--3').addEventListener('click', fu
     document.querySelector('.shop-box__flavors-icons--4').src = "../img/lemongrass-color.svg";
 
     // Add ingredients
-    document.querySelector('.shop-box__ingredients-text').innerHTML = "te verde, azucar, agua, jengibre, y lemongrass";
+    document.querySelector('.shop-box__ingredients-text').innerHTML = "Té verde, azúcar de caña, agua, jengibre, anís estrella, lemongrass, té María Luisa y azúcar de caña";
 
     // Remove selected color
     document.querySelector('.shop-box__flavors-box--1').classList.remove("selected");

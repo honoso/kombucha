@@ -235,7 +235,9 @@ html {
         font-size: 2.5rem;
         text-align: center; } }
     .footer__subscribe-text {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      text-align: center;
+      line-height: 2.5rem; }
       @media only screen and (max-width: 37.5em) {
         .footer__subscribe-text {
           font-size: 2rem; } }
@@ -638,7 +640,8 @@ html {
       margin-bottom: .5rem; }
     .header__circle-text {
       color: #000;
-      font-size: 1.6rem; }
+      font-size: 1.6rem;
+      text-align: center; }
   @media only screen and (max-width: 30em) {
     .header a {
       align-self: center; } }
