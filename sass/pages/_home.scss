@@ -7,9 +7,10 @@
     &__banner {
         padding: 5rem 0;
         padding-left: 15rem;
-        background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/kombucha-3.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/kombucha-main.jpg);
         background-size: cover;
         background-position: center;
+        background-attachment: fixed;
         
         display: flex;
         flex-direction: column;

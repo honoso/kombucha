@@ -1,5 +1,4 @@
 .delivery-header {
-    height: 100vh;
     color: $color-blue-dark;
     
     display: flex;
@@ -47,6 +46,7 @@
 
         p {
             font-weight: 400;
+            padding: 0 2rem;
 
             @include respond(tab-land) {
                 width: 90%;
